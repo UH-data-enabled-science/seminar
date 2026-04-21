@@ -1,0 +1,62 @@
+name: Spring 2021
+talks:
+- date: April 23 2021
+  time: 12:00PM – 01:00PM
+  note: Virtual
+  speaker: Lorenzo Andrea Rosasco
+  affiliation: Universita' degli Studi di Genova
+  title: Interpolation and learning with Matern kernels
+  abstract: |-
+    We study the learning properties of nonparametric minimum norm interpolating estimators. In particular, we consider estimators defined by so called Matern kernels, and focus on the role of the kernels scale and smoothness. While common ML wisdom suggests estimators defined by large function classes might be prone to overfit the data, here we suggest that they can often be more stable. Our analysis uses a mix of results from interpolation theory and probability theory. Extensive numerical results are provided to investigate the usefulness of the obtained learning bounds.
+- date: Apr 16 2021
+  time: 12:00PM – 01:00PM
+  note: Virtual
+  speaker: Ao Kong
+  affiliation: School of Finance, Nanjing University of Finance and Economics
+  title: Predicting intraday jumps in stock prices using high-frequency information
+  abstract: |-
+    Predicting the intraday stock jumps is a significant but challenging problem in finance. Due to the instantaneity and imperceptibility characteristics of intraday stock jumps, relevant studies on their predictability remain limited. Our study proposes a data-driven approach to predict intraday stock jumps using the information embedded in liquidity measures and technical indicators. Specifically, a trading day is divided into a series of 5-minute intervals, and at the end of each interval, the candidate attributes defined by liquidity measures and technical indicators are input into machine learning algorithms to predict the arrival of a stock jump as well as its direction in the following 5-minute interval. Empirical study is conducted on the level-2 high-frequency data of 1271 stocks in the Shenzhen Stock Exchange of China to validate our approach. The result provides initial evidence of the predictability of jump arrivals and jump directions using level-2 stock data as well as the effectiveness of using a combination of liquidity measures and technical indicators in this prediction. We also reveal the superiority of using random forest compared to other machine learning algorithms in building prediction models. Importantly, our study provides a portable data-driven approach that exploits liquidity and technical information from level-2 stock data to predict intraday price jumps of individual stocks.
+- date: Apr 02 2021
+  speaker: Arvind Krishna Saibaba
+  affiliation: Department of Mathematics, North Carolina State University
+  title: Randomized algorithms for sensitivity analysis and model reduction
+  abstract: |-
+    Randomized Numerical Linear Algebra (RandNLA) is an emerging research area that uses randomization as an algorithmic resource to develop algorithms that are numerically robust, with strong theoretical guarantees, easy to implement, and well-suited for high-performance computing. In this talk, I will give a brief overview of RandNLA techniques for dimensionality reduction and discuss novel randomized algorithms, their performance, and analysis, in the context of two important problems in scientific computing: hyperdifferential sensitivity analysis, and nonlinear model reduction.
+
+    Joint work with Joseph Hart and Bart van Bloemen Waanders (both at Sandia National Labs).
+- date: Mar 26 2021
+  speaker: Charles-Albert Lehalle
+  affiliation: Capital Fund Management, Paris and Imperial College, London
+  title: From stochastic control to learning in high frequency finance
+  abstract: |-
+    Since the mast financial crisis, liquidity became a primary topic for market participants. The complexity of products decreased and the business went from "custom haute couture" to "mass market," where logistic costs are the drivers of efficiency. On capital markets, the row material is risk and frictional costs are made of transaction costs, market impact and crowding.
+
+    I will first explain these concepts in a formal way and list now standard ways to answer them. Focusing on transaction costs, scheduling of large orders and control of an order in a double auction game, I will then list how ML starts to provide innovative answers. It will cover examples of Bayesian networks, (explainable) neural control of a PDE and reinforcement learning.
+- date: Mar 12 2021
+  speaker: Guillaume Lajoie
+  affiliation: Mathematics and Statistics Department, Université de Montréal
+  title: |-
+    Inductive biases for deep learning over sequential data: from connectivity to memory addressing
+  abstract: |-
+    In neural networks, a key hurdle for efficient learning involving sequential data is ensuring good signal propagation over long timescales, while simultaneously allowing systems to be expressive enough to implement complex computations. The brain has evolved to tackle this problem on different scales, and deriving architectural inductive biases based on these strategies can help design better AI systems.
+
+    In this talk, I will present two examples of such inductive biases for recurrent neural networks with and without self-attention. In the first, we propose a novel connectivity structure based on “hidden feed forward” features, using an efficient parametrization of connectivity matrices based on the Schur decomposition. In the second, we present a formal analysis of how self-attention affects gradient propagation in recurrent networks, and prove that it mitigates the problem of vanishing gradients when trying to capture long-term dependencies.
+- date: Mar 05 2021
+  speaker: Tom Goldstein
+  affiliation: Department of Computer Science, University of Maryland
+  title: |-
+    A scientific approach to understanding optimization and generalization in neural nets
+  abstract: |-
+    Neural networks have the ability to over-fit on training data, and yet they work incredibly well on test data. In this talk, I’ll discuss why the generalization behavior of neural networks is unexpected. I’ll discuss various theories for why generalization occurs, and use experimental methods to support or refute these theories. Finally, I’ll talk about how the curse of dimensionality may be a blessing for deep learning, and present experiments that support the theory that generalization can be explained (at least in part) by the volume disparity between flat and sharp minima in the loss landscape. Overall, the goal of this talk is to pick apart generalization through experiments rather than theory, and gain some intuition for how deep nets work.
+- date: Feb 26 2021
+  speaker: Hwan Goh
+  affiliation: Oden Institute, University of Texas at Austin
+  title: Solving Bayesian inverse problems via variational autoencoders
+  abstract: |-
+    In recent years, the field of machine learning has made phenomenal progress in the pursuit of simulating real-world data generation processes. One notable example of such success is the variational autoencoder (VAE). In this work, with a small shift in perspective, we leverage and adapt VAEs for a different purpose: uncertainty quantification in scientific inverse problems. We introduce UQ-VAE: a flexible, adaptive, hybrid data/model-informed framework for training neural networks capable of rapid modelling of the posterior distribution representing the unknown parameter of interest. Specifically, from divergence-based variational inference, our framework is derived such that all the information usually present in scientific inverse problems is fully utilized in the training procedure. Additionally, this framework includes an adjustable hyperparameter that allows selection of the notion of distance between the posterior model and the target distribution. This introduces more flexibility in controlling how optimization directs the learning of the posterior model. Further, this framework possesses an inherent adaptive optimization property that emerges through the learning of the posterior uncertainty.
+- date: Feb 02 2021
+  speaker: Andreas Savas Tolias
+  affiliation: Department of Neuroscience, Baylor College of Medicine
+  title: A less artificial intelligence
+  abstract: |-
+    Our goal is to discover the algorithms and circuit-level mechanisms that the visual cortex uses to generate visual perception. We seek to ultimately build a computational model of the macaque and mouse visual cortex bridging structure (i.e. cell types and connectivity rules) and function (neural representations and visual perception). We are guided by the theory that brains learn generative models of the world where behaviorally relevant causal features such as 3D motion, texture, object shapes and positions are represented as hierarchies of representations reflected in the firing of populations of neurons of different functional types, across various areas. The populations of neurons encoding these variables also encode the probabilities associated with the uncertainty of these variables. Central to discovering the algorithms of visual inference is to decipher these neural representations. This effort has led to seminal discoveries in the field such as Barlow’s “fly detector” cells in the retina, Hubel and Wiesel’s orientation-selective cells in primary visual cortex and Charles Gross’s “face cells” in inferotemporal cortex. However, finding the optimal sensory inputs and deciphering the corresponding neural representations remains a difficult problem due to the high-dimensionality of the search space and because sensory information processing is nonlinear. To mitigate this problem, we developed inception loops: a closed-loop optimization technique that combines large scale in vivo recordings with in silico deep learning modeling. Inception loops have three key components: 1) We build accurate predictive models of neural activity using large scale experimental data. 2) We use this model as an in silico avatar to perform essentially limitless number of experiments and analyses including ones that are practically impossible to perform in the real brain. The avatar enables a systematic dissection of neural representations to gain functional insights and generate novel hypotheses. 3) We loop back in vivo to test these hypotheses and predictions. I will present recent results we have obtained by using inception loops to study visual processing. I will also discuss how we are using the in silico avatar of neural responses to regularize machine learning algorithms for artificial intelligence tasks.

@@ -1,0 +1,101 @@
+name: Spring 2026
+talks:
+- date: Jan 16 2026
+  time: 12:00PM – 1:00PM
+  speaker: Emily King
+  affiliation: Mathematics, Colorado State
+  title: Frame Theory and Transformers
+  abstract: |-
+    Large language models like ChatGPT are built on special functions called transformers, which are in turn built using functions called attention mechanisms. Frames are generalizations of bases which have connections to combinatorial design theory, quantum information theory, and more. Work investigating trained models showed certain frame-like properties emerge. In this talk, we will introduce some of the basics about transformers and attention and share some theoretical results inspired by trained models.
+- date: Jan 23 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Hyunjoong Kim
+  affiliation: Mathematical Sciences, University of Cincinnati
+  title: When adventurous individuals emerge
+  abstract: |-
+    Exploration in uncertain and changing environments poses a fundamental dilemma: while it benefits the group by generating valuable information, it imposes direct costs on individual explorers. What conditions allow such adventurous individuals to exist and persist in decentralized collectives? We address this question using a normative model of collective foraging in which agents decide whether to commit or remain idle, with rewards and information shared across the group. Using dynamic programming and asymptotic analysis, we show that optimal performance arises from structured heterogeneity: a small, heterogeneous subset of risk-taking explorers ventures even when expected returns are negative, while the majority of risk-averse individuals commit collectively once conditions become favorable. This decentralized composition matches the efficiency of a centrally coordinated group through simple threshold-based rules. The degree of heterogeneity peaks at intermediate commitment cost and moderate environmental switch amplitude but diminished in rapidly changing environments. These results reveal when and why adventurous individuals emerge, showing how collectives self-organize to balance exploration and exploitation under uncertainty.
+- date: Jan 30 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Melissa Franch
+  affiliation: Baylor College of Medicine
+  title: Neural signatures of impaired semantic contextualization in autism
+  abstract: |-
+    Several prominent, yet controversial, theories on the etiology of autism emphasize impairments in incorporating contextual information into ongoing cognitive processes. For example, predictive coding models posit that autism reflects impaired incorporation of background information into ongoing sensory processing. Due to the prominence of social, and especially linguistic, impairments in autism, we hypothesized that autism would be associated with reduced semantic contextualization, or use of words to modify meaning of later ones, in listening. We recorded single-neuron activity from the hippocampus, a region central to semantic and conceptual coding, in adult patients with intractable epilepsy undergoing intracranial monitoring as they watched and listened to naturalistic storytelling (The Moth podcast). Three of the 14 recorded patients had comorbid epilepsy and autism diagnoses, including one individual with profound, nonverbal autism. Single neuron phonetic and semantic encoding was also consistent between control and autistic patients, with semantics predicting neural activity better than phonetics. However, neural activity in autistic patients exhibited reduced encoding of upcoming words, alongside disproportionate weighting of preceding context. When comparing neural responses to semantic embeddings from Large Language Models (GPT-2 Large), autistic neural responses aligned most with less contextual embeddings from earlier layers of the model, scaling with autism severity. Interestingly, while semantic decoding was also reduced in 2/3 autistic patients, all patients exhibited a reduction in the dimensionality of the predictive neural subspace used to encode word meaning. Together, these neural findings - reduced reliance on context and weaker prediction of upcoming words - are consistent with predictive coding theories of autism.
+- date: Feb 6 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Zack Kilpatrick
+  affiliation: Applied Mathematics, University of Colorado Boulder
+  title: Robust collective dynamics via resource transport and heterogeneous architecture
+  abstract: |-
+    We study how resource transport and network architecture shape collective dynamics using three complementary examples from distributed biological systems. Using these models, we identify general mechanisms through which structural heterogeneity promotes stable yet adaptable collective behavior. In neural field models of large-scale brain activity, diffusion of synaptic resources through astrocytic recycling stabilizes persistent activity patterns that support short-term memory. In modular voter networks, clustered connectivity reshapes effective interaction pathways and amplifies noise-driven diffusive forcing toward consensus across scales, enabling group-wide agreement through rapid convergence within modules followed by slower coordination across modules. In spatial search models inspired by honeybee foraging, heterogeneous signaling of resource availability redirects flow and reduces congestion. Despite their distinct settings, these systems share common principles in which transport, clustering, and feedback redistribute limited interaction capacity to balance robustness and flexibility. Our results suggest that collective organization in heterogeneous, resource-constrained systems reflects shared mechanistic principles governing stability and adaptability.
+- date: Feb 20 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Joseph D. Butner
+  affiliation: MD Anderson
+  title: |-
+    Combining equation-based models with deep learning to advance personalized medicine
+  abstract: |-
+    Equation-based models have made great strides in cancer research, revealing new insights into disease mechanisms and treatment effects while providing platforms for simulating treatment optimization on a broad scale beyond what is feasible in clinical settings. The mechanistic understanding gained from such models may form the foundation of powerful digital twin models for engineering personalized treatments strategies to maximize system-wide therapeutic efficacy. However, some readily available clinical measures that likely associate with outcomes are not easily included into mechanistic equations, and some outcomes of interest, such as time to critical events such as treatment failure or patient death, often require more advanced methods beyond equations alone. We will examine methods to robustly address these challenges by combining a mechanistic model of cancer immunotherapy with neural networks as a basis for several case studies.
+- date: Feb 27 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Thibaud Taillefumier
+  affiliation: Department of Neuroscience, UT Austin
+  title: Weak synchrony as a primary driver of neuronal variability
+  abstract: |-
+    Cortical activity exhibits pronounced variability at both the spiking and subthreshold membrane voltage levels, even when driven by identical stimuli. While cortical variability is often thought of in an asynchronous regime, combined theoretical and experimental evidence supports weak but nonzero network synchrony as the primary driver of cortical variability. Using biophysically grounded conductance-based models and generalized moment analysis, we show that weakly correlated synaptic inputs—modeled as shot-noise jump processes—is required to account not only for membrane voltage fluctuations, but also for higher-order statistical features such as voltage covariance and skewness. In-vitro dynamic clamp measurements and large-scale in-vivo electrophysiology recordings further confirm that intrinsic neuronal properties contribute minimally to spiking variability. Instead, we found that variability is controlled by the timescale of the weakly synchronous network drive (approximately 25–200 ms), which shifts depending on sensory input, with reduced variability during externally driven states compared to spontaneous activity. Together, these findings establish weak cortical synchrony as a principal driver of spiking and subthreshold variability, highlighting that cortical variability is fundamentally a population-level, network phenomenon.
+- date: March 6 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Naoki Masuda
+  affiliation: Mathematics, University of Michigan
+  title: A latent-dynamics view of temporal network data
+  abstract: |-
+    Various network data are time-stamped, and there are multiple ways to summarize such complex data. One view is to abstract time-varying networks (temporal networks) into the movement of an underlying state, and represent network dynamics as a trajectory in a latent space, including the special case of transition dynamics among a small number of discrete states. In this talk, I present several methods for realizing this goal for temporal network data, ranging from estimation of state-transition dynamics to recurrence plots and recurrence quantification analysis (from nonlinear time-series analysis), and network embedding. These approaches provide interpretable low-dimensional representations, help identify regime changes and recurring patterns, and facilitate comparison across data sets. I demonstrate the methods with time-stamped social interaction events among human individuals, empirical brain dynamics data, and air transportation network data.
+- date: March 13 2026
+  time: 12:00PM – 1:00PM
+  speaker: Lu Zhang
+  affiliation: CMOR, Rice University
+  title: Data-driven hyperbolic conservation laws
+  abstract: |-
+    Hyperbolic conservation laws are fundamental to modeling wave propagation, fluid dynamics, and collective behavior across science and engineering. Despite their universal importance, traditional numerical solvers rely on explicitly known flux functions and parameters, which are often unavailable in realistic scenarios where only trajectory or observation data are accessible. In this talk, I will discuss our recent work in data-driven approaches for learning hyperbolic conservation laws that preserve their intrinsic physical and mathematical structures. These developments combine principles from numerical analysis, partial differential equations, and machine learning to construct models that are both predictive and faithful to the underlying conservation and stability properties of the governing equations.
+- date: April 10 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: David Hildebrand
+  affiliation: Department of Vision Sciences, University of Houston
+  title: |-
+    Studying neuronal circuit structure and function in marmoset face perception and beyond
+  abstract: |-
+    A characteristic feature of sensory cortex in primates is its functional organization into continuous maps, where neurons are arranged according to their functional properties (e.g., retinotopy, orientation pinwheels). In contrast, high-level visual areas in temporal cortex have been parcellated into discrete category-selective clusters (e.g., face vs. body areas). However, recent results and models suggest that temporal cortex could instead be functionally organized by continuous maps corresponding to properties such as animacy or real-world size. It has been difficult to resolve the functional organization of temporal cortex with standard techniques; fMRI has insufficient spatial resolution, while electrophysiological sampling is too sparse. This talk will discuss alternative approaches that we have recently taken to examine the functional organization of temporal cortex using cellular-resolution calcium imaging of neuronal populations in marmosets with two-photon microscopy, then describe related ongoing projects in the lab.
+- date: April 17 2026
+  time: 12:00PM – 1:00PM
+  speaker: Mark Sellke
+  affiliation: Department of Statistics, Harvard University
+  title: Some Recent Mathematical Advances From AI
+  abstract: |-
+    I will discuss some recent advances in mathematics and science due to AI. We will go into the details of a few notable examples, and highlight current strengths and weaknesses of the models.
+- date: April 24 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Behnaam Aazhang
+  affiliation: Rice University
+  title: |-
+    Engineering and Medicine: How Technology Can Help Mitigate Neurological Disorders
+  abstract: |-
+    The focus of this presentation, targeted for a broad audience, is on developing tools to understand several neurological disorders and their relation. As a primary example of an understudied disorder, the focus will be on Alzheimer’s and its relation to the glymphatic flow. The glymphatic network serves as the “front end” for waste clearance in the brain, and is connected downstream to human’s lymphatic network. Disruptions in glymphatic flows will compromise protein clearance from the brain and contribute to the etiology of Alzheimer’s Disease (AD), hydrocephalus, and several other neurological disorders. These links between glymphatic flow and these disorders call for new portable and non-invasive mechanisms of measuring the glymphatic flow as well as stimulation through which the brain function can be improved. The impact of developing non-invasive, wearable systems to measure and in turn enhance the flow is immense with tremendous clinical applications.
+- date: May 1 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Ashok Litwin-Kumar
+  affiliation: Department of Neuroscience, Columbia University
+  title: TBD
+- date: May 8 2026
+  time: 12:00PM – 1:00PM
+  speaker: Daniel Floryan
+  affiliation: Department of Mechanical Engineering, University of Houston
+  title: TBD

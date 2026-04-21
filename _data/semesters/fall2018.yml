@@ -1,0 +1,34 @@
+name: Fall 2018
+talks:
+- date: Nov 12 2018
+  speaker: Saurabh Prasad
+  affiliation: Department of Electrical & Computer Engineering, University of Houston
+  title: |-
+    Advances in Supervised and Semi-Supervised Machine Learning for Image Analysis of Multi-Modal Geospatial Imagery
+  abstract: |-
+    Recent advances in optical sensing technology (miniaturization and low-cost architectures for spectral imaging) and sensing platforms from which such imagers can be deployed (e.g. handheld devices, unmanned aerial vehicles) have the potential to enable ubiquitous multispectral and hyperspectral imaging on demand to support geospatial analysis. Often, however, robust analysis with such data is challenging due to limited/noisy ground-truth, and variability due to illumination, scale and atmospheric conditions. In this talk, I will review recent advances in the areas of subspace learning, structured sparsity and Bayesian inference towards robust single and multi-sensor geospatial imaging while providing robustness to the aforementioned challenges. I will also present how some of these ideas bear synergy with emerging trends in deep learning and can support robust deep learning under the small-sample-size scenario. I will discuss the algorithmic developments and present results with a benchmark urban ground-cover classification task, as well as an ecosystem monitoring multi-sensor geospatial dataset.
+- date: Oct 29 2018
+  speaker: David Fuentes
+  affiliation: Department of Imaging Physics, MD Anderson
+  title: |-
+    A Mathematical Model Development for Prediction of Liver Cancer Treatment Response
+  abstract: |-
+    Curative therapies are not available to the majority of patients with liver cancer. Treatment decisions are difficult and must intricately balance treatment of the disease extent with quality of life and preservation of liver function while minimizing risk of recurrence and metastasis. As each therapeutic approach imposes significant physical, emotional, and financial impact on the patient, there is a well-recognized need for reliable methods that can predict the response to therapy. In this work, we develop an automated approach that uses clinical factors combined with quantitative image features on computed tomography to predict hepatocellular carcinoma (HCC) response to transcatheter arterial chemoembolization (TACE). Our approach for data curation, feature reduction, model calibration, and validation to build confidence in the model prediction accuracy will be discussed. Reliable image registration and segmentation methods are essential for repeatable extraction of quantitative image features as model input.
+- date: Sep 24 2018
+  speaker: Teemu Saksala
+  affiliation: Department of Computational and Applied Mathematics, Rice University
+  title: Seeing inside the earth with Riemannian and Finsler geometry
+  abstract: |-
+    Earthquakes produce seismic waves. They provide a way to obtain information about the deep structures of our planet. The typical measurement is to record the travel time difference of the seismic waves produced by an earthquake. If the network of seismometers is dense enough and they measure a large number of earthquakes, we can hope to recover the wave speed of the seismic wave from the travel time differences. In this talk we will consider geometric inverse problems related to different data sets produced by seismic waves. We will state uniqueness results for these problems and consider the mathematical tools needed for the proofs. The talk is based on joint works with: Maarten de Hoop, Joonas Ilmavirta, Matti Lassas and Hanming Zhou.
+- date: Sep 10 2018
+  speaker: James L. Herring
+  affiliation: Department of Mathematics, University of Houston
+  title: LAP—A Fast Solver for Coupled Imaging Problems
+  abstract: |-
+    Coupled nonlinear inverse problems arise in numerous imaging applications, and solving them is often difficult due to ill-posedness and high computational cost. In this work, we introduce LAP, a linearize and project method for coupled nonlinear inverse problems with two (or more) sets of coupled variables. LAP is implemented within a Gauss–Newton framework. At each iteration of the Gauss–Newton optimization, LAP linearizes the residual around the current iterate, eliminates one block of variables via a projection, and solves the resulting reduced dimensional problem for the Gauss--Newton step. The method is best suited for problems where the subproblem associated with one set of variables is comparatively well-posed or easy to solve. LAP supports iterative, direct, and hybrid regularization and supports element-wise bound constraints on all the blocks of variables. This offers various options for incorporating prior knowledge of a desired solution. We demonstrate the advantages of these characteristics with several numerical experiments. We test LAP for two and three dimensional problems in super-resolution and MRI motion correction, two separable nonlinear least-squares problems that are linear in one block of variables and nonlinear in the other. We also use LAP for image registration subject to local rigidity constraints, a problem that is nonlinear in all sets of variables. These two classes of problems demonstrate the utility and flexibility of the LAP method.
+- date: Aug 27 2018
+  speaker: Emily King
+  affiliation: Department of Mathematics, University of Bremen
+  title: Edge, Ridge, and Blob Detection with Symmetric Molecules
+  abstract: |-
+    In this talk a novel approach to the detection and characterization of edges, ridges, and blobs in two-dimensional images which exploits the symmetry properties of directionally sensitive analyzing functions in multiscale systems that are constructed in the framework of $\alpha$-molecules -- a generalization of shearlets -- will be presented. The proposed feature detectors are inspired by the notion of phase congruency, stable in the presence of noise, and by definition invariant to changes in contrast. It will also be shown that the behavior of coefficients corresponding to differently scaled and oriented analyzing functions can be used to obtain a comprehensive characterization of the geometry of features in terms of local tangent directions, widths, and heights. The accuracy and robustness of the proposed measures will be validated and compared to various state of the art algorithms in extensive numerical experiments in which sets of clean and distorted synthetic images that are associated with reliable ground truths will be considered. To further demonstrate the applicability, it will be shown that the proposed ridge measure can be used to detect and characterize blood vessels in digital retinal images and that the proposed blob measure can be applied to automatically count the number of cell colonies in a Petri dish.

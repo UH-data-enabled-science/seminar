@@ -1,0 +1,86 @@
+name: Spring 2025
+talks:
+- date: Jan 17 2025
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Heiko Enderling
+  affiliation: Department of Radiation Oncology, MD Anderson
+  title: PRiSM – Personalized Radiotherapy with integrated Scientific Modeling
+- date: Jan 24 2025
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Zachary J. Grey
+  affiliation: Mathematical Analysis and Modeling Group, NIST
+  title: Explainable Binary Classification of Separable Shape Ensembles
+  abstract: |-
+    Patterns in images manifest as coherent structures or shapes. In materials science, imaging produces segmented planar grain boundaries (curves) to facilitate inferences about important macroscopic changes when comparing and contrasting microstructures. To bolster this and any related metrology via imaging, we introduce novel pattern recognition formalisms combined with inference methods over large ensembles containing thousands of segmented curves. This is accomplished by accurately approximating eigenspaces of a composite integral operator to motivate discrete, dual representations collocated at quadrature nodes. Approximations are projected onto underlying matrix manifolds and the resulting separable shape tensors constitute rigid-invariant decompositions of curves into generalized (linear) scale variations and complementary (nonlinear) undulations. With thousands of curves segmented from pairs of images, we demonstrate how data-driven features of separable shape tensors inform explainable binary classification utilizing a product kernel metric: absent labeled data, learning interpretable feature spaces without high performance computation, and detecting discrepancies below cursory visual inspections.
+- date: Jan 31 2025
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Jonathan Touboul
+  affiliation: Department of Mathematics, Brandeis University
+  title: Complex dynamics of excitable networks and applications to Parkinson’s disease
+  abstract: |-
+    Parkinson's disease (PD) is a neurodegenerative disorder associated with alterations of neural activity and information processing mainly in the basal ganglia and cerebral cortex. In addition to motor symptoms, electrophysiological evidence show, at the level of individual neurons increased excitability levels, and at the level of networks, excessive beta oscillations and synchronization. Treatments based on chronic stimulation (called Deep Brain Stimulation, DBS) have been used for many years to treat PD symptoms, but its mechanisms of action remain largely elusive.
+
+    I will present a combination of mathematical theories on neural networks, computational simulations and human electrophysiological data aimed at better understanding the dynamics of excitable networks and optimal DBS parameters. I will show, in a simplified model of neural activity, that increased neural excitability transforms noisy fluctuations into a highly synchronized activity, and that high-frequency stimulation restores physiological activity and increases information processing capabilities. In more realistic computational framework of the motor cortex, I will show how to disentangle the links between levels of excitability, synchronization of cortical networks and information processing capacities. Using machine learning algorithm, we will track the coding capacity of neural networks in various conditions and show that DBS may improve cortical coding by efficiently reducing network firing rate and synchronization levels. This led us to design a clinical protocol to test this theory, and I will present our first results on human electrophysiology on Parkinsonian patients implanted with DBS electrodes, which support the idea that DBS may act to restore information capability in patients.
+
+    This talk will cover joint works with Charlotte Piette, Laurent Venance, Bertrand Degos and Bard Ermentrout.
+- date: Feb 21 2025
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Oleg Igoshin
+  affiliation: Department of Bioengineering, Rice University
+  title: |-
+    Uncovering the mechanisms of pattern formation in myxobacteria with modeling and machine-learning
+  abstract: |-
+    Collective cell movement is critical to the emergent properties of many multicellular systems, including microbial self-organization in biofilms, wound healing, and cancer metastasis. However, even the best-studied systems lack a complete picture of how diverse physical and chemical cues act upon individual cells to ensure coordinated multicellular behavior. Myxococcus xanthus is a model bacteria famous for its coordinated multicellular behavior resulting in dynamic pattern formation. For example, when starving, millions of cells coordinate their movement to organize into fruiting bodies – aggregates containing tens of thousands of bacteria. Relating these complex self-organization patterns to the behavior of individual cells is a complex, reverse-engineering problem that cannot be solved solely by experimental research. In collaboration with experimental colleagues, we use a combination of image processing, agent-based modeling, and kinetic theory to uncover the mechanisms of emergent collective behaviors.
+
+    To quantify and compare self-organization dynamics systematically, we also employ the power of AI. We trained a deep-learning model to find a low-dimensional representation of brightfield microscopic images. Using a ResNet as an encoder, we compressed each image crop into a 13-dimensional feature vector. To validate this compression, we employed a StyleGAN2 as a generator to reconstruct high-resolution images from the feature vectors. During training, a Siamese network assessed the phenotypic similarity between input and reconstructed images. As a result, we obtained a model capable of reconstructing images that appear indistinguishable from input images in terms of phenotype. With the 13-dimensional features extracted, we developed a distance metric and 2-D graphical representation to compare 24-hour movies based on their self-organization dynamics. Our findings demonstrate the potential of deep learning methods in extracting emergent patterns in cellular systems, paving the way for future research in bacterial self-organization and system biology.
+- date: Feb 28 2025
+  time: 11:45AM – 12:45PM
+  note: virtual
+  speaker: Daniel Walter
+  affiliation: Institut für Mathematik, Humboldt-Universität zu Berlin
+  title: A geometric approach towards nonsmooth minimization problems
+  abstract: |-
+    The incorporation of nonsmooth, convex regularizers into the objective functionals of, possibly infinite-dimensional, minimization problems has become a cornerstone of modern mathematical programming, including applications in variational regularization approaches to inverse problems, optimal control as well as machine learning. In this context, a particular focus lies on positively one-homogeneous regularization functionals since these are known to promote sparse solutions, i.e. minimizers that are constituted by a linear combination of simpler atoms. A recently popularized approach towards understanding the structure-enhancing properties of a given regularizer is constituted by studying the geometry of the associated generalized unit ball and, in particular, its extremal points. Exploiting this geometric perspective as well as our earlier work on minimization problems in spaces of Radon measures, we propose an iterative solution algorithm, the fully-corrective generalized conditional gradient method, which relies on iterates constituted by finite linear combinations of extremal points. In each iteration, the method alternates between two subproblems: First, the maximization of a linear functional over the set of extremal points in order to greedily update the set of atoms constituting the iterate. Second, the solution of a finite dimensional, LASSO-like problem in order to update the coefficients in the conic representation of the iterate.
+
+    We discuss the (fast) convergence properties of the resulting algorithm, its practical realization for some challenging settings as well as some current and future developments.
+- date: Mar 07 2025
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Robert Rosenbaum
+  affiliation: |-
+    Department of Applied and Computational Mathematics and Statistics, University of Notre Dame
+  title: High dimensional dynamics in low dimensional networks
+  abstract: |-
+    Many networks that arise in nature and applications are effectively low dimensional in the sense that their connectivity structure is consistent with a low rank matrix perturbed by noise. It is natural to expect that dynamics on such networks might also be low dimensional. Indeed, recent results show that low rank recurrent networks produce low dimensional dynamics whenever the network is isolated from external perturbations or noise. However, networks in nature are rarely isolated: They are subject to external and internal perturbations and noise. We show that recurrent networks with low rank structure often produce high dimensional dynamics in the presence of high dimensional perturbations. Counter to intuition, dynamics in these networks are suppressed in directions that are aligned with the network's low rank structure, a phenomenon we term “low rank suppression." Our results clarify important, but counterintuitive relationships between a network's connectivity structure and the structure of the dynamics it generates.
+- date: Mar 14 2025
+  holiday: Spring Break
+- date: Mar 21 2025
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Alexandru Hening
+  affiliation: Department of Mathematics, Texas A&M
+  title: Stochastic population dynamics in discrete time
+  abstract: |-
+    I will present a general theory for coexistence and extinction of ecological communities that are influenced by stochastic temporal environmental fluctuations. The results apply to discrete time stochastic difference equations that can include population structure, eco-environmental feedback or other internal or external factors. Using the general theory, I will showcase some interesting examples. I will end my talk by explaining how the population size at equilibrium is influenced by environmental fluctuations.
+- date: Mar 28 2025
+  time: 11:45AM – 12:45PM
+  note: virtual
+  speaker: José Iglesias Martínez
+  affiliation: Department of Applied Mathematics, University of Twente
+  title: 'Kantorovich-Rubinstein norms: Sparsity and shallow neural networks'
+  abstract: |-
+    Variational problems in spaces of measures with total variation regularization have gained in popularity in recent years, with at least two significant drivers behind this trend. The first are formulations for linear inverse problems such as BLASSO, where the measure setting allows for their optimization through discretization-free conditional gradient methods, and sparsity and super-resolution results on the solutions arising from noisy measurements. The second is the ability to formulate regression problems with shallow neural networks in a convex fashion, the corresponding spaces of Barron functions and their reproducing kernel Banach space structure.
+
+    In this talk, we explore the use in these formulations of Kantorovich-Rubinstein norms, defined by testing with Lipschitz functions instead of general continuous ones, and reflecting unbalanced optimal transport. For them, we are able to obtain a full characterization of extremal points of the unit ball and strong compactness results. These in turn allow to maintain sparsity results and the use of sparse optimisation methods, while providing additional interpretation on the convergence of learning problems. From an application perspective, an additional shifted KR norm term allows for injecting a priori spatial information in inverse problems, and modelling distillation/fusion of infinitely wide shallow networks.
+- date: Apr 11 2025
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Tom Needham
+  affiliation: Mathematics Department, Florida State University
+  title: Generalized Gromov-Wasserstein Distances and Network Analysis
+  abstract: |-
+    The Gromov-Wasserstein (GW) distances comprise a family of metrics which can be used to compare abstract metric measure spaces. They are defined by applying ideas from optimal transport theory to give an L^p version of the well-known Gromov-Hausdorff distance. In recent years, GW distances have been successfully applied to a wide variety of network analysis tasks, from network alignment, to community detection, to dictionary learning for ensembles of networks. I will give an overview of properties of GW distances and describe various generalizations, including a version which is able to compare kernels valued in arbitrary metric spaces. This latter version has applications to attributed graphs and "shape graphs", where the edges of the graph are considered as embedded shapes.

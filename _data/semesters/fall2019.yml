@@ -1,0 +1,22 @@
+name: Fall 2019
+talks:
+- date: Nov 26 2019
+  speaker: Emily King
+  affiliation: Department of Mathematics, Colorado State University
+  title: ReLU-singular values and Gaussian mean width in neural networks.
+  abstract: |-
+    Feedforward neural networks are simply the composition of a sequence of functions alternating between various affine linear maps and a non-linear function called an activation function. One of the most common activation functions is the rectified linear unit ReLU, which maps negative components of a vector to zero and positive components to themselves. A layer of a network consists of a single affine linear map composed with the activation function. A new concept which generalizes singular values to the necessarily non-linear maps corresponding to layers with the ReLU activation function called ReLU-singular values will be introduced. One may leverage ReLU-singular values to prune the neural network. Gaussian mean width, which was originally introduced in high dimensional geometry may be used as another mathematical tool to analyze neural networks which seems to yield information about the success of the neural network in performing the task it was trained to do.
+- date: Nov 5 2019
+  speaker: Anastasios Kyrillidis
+  affiliation: Department of Computer Science, Rice University
+  title: Finding low rank solutions, efficiently and provably.
+  abstract: |-
+    A rank-$r$ matrix $X\in\mathbb{R}^{m \times n}$ can be written as a product $UV^\mathsf{T}$, where $U\in \mathbb{R}^{m \times r}$ and $V \in \mathbb{R}^{n \times r}$. One could exploit this observation in optimization: e.g., consider the minimization of a convex function $f(X)$ over rank-$r$ matrices, where the set of rank-$r$ matrices is modeled via the factorization $UV^\mathsf{T}$. Though such parameterization reduces the number of variables, and is more computationally efficient (of particular interest is the case $r \ll \min\{m,n\}$), it comes at a cost: $f(UV^\mathsf{T})$ becomes a non-convex function w.r.t. $U$ and $V$.
+
+    We study such parameterization for optimization of generic convex objectives $f$, and focus on first-order, gradient descent algorithmic solutions. We propose the Bi-Factored Gradient Descent (BFGD) algorithm, an efficient first-order method that operates on the $U,V$ factors. We show that when $f$ is (restricted) smooth, BFGD has local sublinear convergence, and linear convergence when $f$ is both (restricted) smooth and (restricted) strongly convex. For several key applications, we provide simple and efficient initialization schemes that provide approximate solutions good enough for the above convergence results to hold.
+- date: Oct 08 2019
+  speaker: Vivek Boominathan
+  affiliation: Department of Electrical and Computer Engineering, Rice University
+  title: Designing flat cameras by replacing lenses with computation.
+  abstract: |-
+    Miniaturization of cameras is key to enabling new applications in areas such as connected devices, wearables, implantable medical devices, in vivo microscopy and micro-robotics. Recently, lenses were identified as the main bottleneck in miniaturization of cameras. Standard smaller lens-system camera modules have a thickness of about 10 mm or higher and reducing the size of lenses leads to a smaller aperture, inferior light collection, and noisier and worse resolution. In this talk, I will present our efforts in creating cameras with a compact factor of 10x smaller thicknesses and weights. We achieve this by replacing the focusing lens optics with a thinner optical mask placed close to the imaging sensor and employing computational approaches to perform the “focusing” of the images. I will discuss the design principles of the optical masks in terms of camera performance and the computational complexity of the recovery algorithm. I will show, with results, the applications of our cameras in 3D microscopy, high-resolution imaging, and computer vision.

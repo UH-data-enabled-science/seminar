@@ -1,0 +1,75 @@
+name: Fall 2024
+talks:
+- date: Aug 30 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Ming Zhong
+  affiliation: Department of Mathematics, University of Houston
+  title: Recent Advances in Structured Learning from High Dimensional Data
+  abstract: |-
+    We present some new mathematical methodologies aimed at extracting accurate scientific insights from high dimensional observational data. Developed to enhance the understanding and simulation of intriguing behaviors from complex systems, our approaches effectively address challenges including curse of dimensionality and information bottlenecks in scientific machine learning. Supported by rigorous theoretical underpinnings, we provide well-maintained software packages with efficient implementations across a spectrum of applications such as medical imaging, social issue modeling and generative AI. Future research directions, encompassing topics such as learning topological averaging, geometric structure, stochastic data, will be discussed.
+- date: Sep 06 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Jonathan Siegel
+  affiliation: Mathematics Department, Texas A&M University
+  title: Convergence and error control of consistent PINNs for elliptic PDEs
+  abstract: |-
+    We study the convergence rate, in terms of the number of collocation points, of Physics-Informed Neural Networks (PINNs) for the solution of elliptic PDEs. Specifically, given Sobolev or Besov space assumptions on the right-hand side of the PDE and on the boundary values, we determine the minimal number of collocation points required to achieve a given accuracy. These results apply more generally to any collocation method which only makes use of point values. Next, we introduce a novel PINNs loss function based upon elliptic PDE regularity theory, which we call consistent PINNs. We prove an error bound for consistent PINNs in terms of the number of collocation points and the final loss value achieved. Finally, we present numerical experiments which demonstrate that the consistent PINNs loss results in improved solution error.
+- date: Sep 20 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Bhargav Karamched
+  affiliation: Department of Mathematics, Florida State University
+  title: Oscillations in Delayed Positive Feedback Systems
+  abstract: |-
+    Positive feedback loops exist in many biological circuits important for organismal function. In this work, we investigate how temporal delay affects the dynamics of two canonical positive feedback models. In this talk, we will discuss models of a genetic toggle switch and a one-way switch with delay added to the feedback terms. We will show that long-lasting transient oscillations exist in both models under general conditions and that the duration depends strongly on the magnitude of the delay and initial conditions. We will discuss some general properties of oscillations emerging from positive feedback systems. We then show the existence of long-lasting oscillations in specific biological examples: the Cdc2-Cyclin B/Wee1 system and a genetic regulatory network. Our results challenge fundamental assumptions underlying oscillatory behavior in biological systems. While generally delayed negative feedback systems are canonical in generating oscillations, we show that delayed positive feedback systems are a mechanism for generating oscillations as well.
+- date: Oct 04 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Fei Lu
+  affiliation: Department of Mathematics, John Hopkins University
+  title: Data-adaptive RKHS regularization for learning kernels in operators
+  abstract: |-
+    Kernels are efficient in representing nonlocal dependence and are widely used to design operators between function spaces or high-dimensional data. Examples include convolution kernels and interaction potentials in interacting particle systems. Thus, learning kernels in operators from data is an inverse problem of general interest. Due to the nonlocal dependence, the inverse problem is often severely ill-posed with a data-dependent compact normal operator that can be singular. Therefore, regularization is necessary. However, little prior information is available to select a proper regularization norm in many applications. We overcome the challenge by introducing a data-adaptive RKHS for regularization. It leads to a convergent estimator that is robust to noise, outperforming the widely used L2 or l2 regularizers. We will discuss both direct and iterative methods for implementation.
+- date: Oct 11 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: David Lipshutz
+  affiliation: Department of Neuroscience, Baylor College of Medicine
+  title: Statistical learning algorithms for biological neural networks
+  abstract: |-
+    To survive, biological organisms need to extract, transmit and store meaningful information from the world via their sensory organs. A major challenge at the intersection of neuroscience and statistics is to understand the algorithms that early sensory systems use to process sensory information. These algorithms differ in many respects from those traditionally used in statistics and signal processing due to differences in both the objectives of biological organisms and the "hardware" that the systems use. In this talk, I will discuss a framework for deriving algorithms that solve certain matrix factorization problems, which include many classical statistical learning methods that may be relevant for biological organisms. I will show how these algorithms can be implemented in neural circuit models that closely match certain aspects of biological circuits and make experimental predictions.
+- date: Oct 18 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Nancy Glenn Griesinger
+  affiliation: Department of Mathematics, Texas Southern University
+  title: |-
+    Wigner-Weighted Empirical Likelihood for Estimating Mean Spacing in Nuclear Resonance Data
+  abstract: |-
+    This research explores the determination of the mean spacing between adjacent neutron resonances, emphasizing maximum likelihood estimation (MLE) as the primary method. Traditional parametric MLE techniques fit statistical models to resonance data to estimate mean spacings by deriving parameters that describe the underlying distribution of spacings. However, these techniques heavily depend on the accuracy of the assumed distribution. To enhance model flexibility, we introduce a novel methodology: Wigner-weighted empirical likelihood. This innovative approach integrates a nonparametric weighted empirical likelihood with a parametric Wigner surmise distribution, creating a semi-parametric framework that accommodates a broader range of data characteristics. Based on research performed at Brookhaven National Laboratory, this hybrid technique aims to provide a more accurate and reliable estimation of the mean spacing between neutron resonances, effectively relaxing the constraints imposed by conventional parametric models. The proposed methodology is expected to yield valuable insights into resonance characteristics, contributing to a deeper understanding of nuclear interactions.
+- date: Nov 08 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Jay Hennig
+  affiliation: Department of Neuroscience, Baylor College of Medicine
+  title: Emergence of belief representations through reinforcement learning
+  abstract: |-
+    To behave adaptively, animals must learn to predict future reward, or value. To do this, animals are thought to learn reward predictions using reinforcement learning. However, in contrast to classical models, animals must learn to estimate value using only incomplete state information. Previous work suggests that animals estimate value in partially observable tasks by first forming "beliefs"--optimal Bayesian estimates of the hidden states in the task. Although this is one way to solve the problem of partial observability, it is not the only way, nor is it the most computationally scalable solution in complex, real-world environments. Here we show that a recurrent neural network (RNN) can learn to estimate value directly from observations, generating reward prediction errors that resemble those observed experimentally, without any explicit objective of estimating beliefs. We integrate statistical, functional, and dynamical systems perspectives on beliefs to show that the RNN’s learned representation encodes belief information, but only when the RNN’s capacity is sufficiently large. These results illustrate how animals can estimate value in tasks without explicitly estimating beliefs, yielding a representation useful for systems with limited capacity.
+- date: Nov 15 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Ben Hayden
+  affiliation: Baylor College of Medicine
+  title: Neuroscience of Continuous Decision-Making
+  abstract: |-
+    The study of decision-making normally focuses on decisions in the simple case of discrete options and choices made at single time points. However, in the real world, decisions are made on media res, meaning as part of a larger background of other decisions, often continuously, with interactive adaptation. Our lab has begun to explore how to think about these types of decisions, and how the brain may implement them.
+- date: Dec 06 2024
+  time: 11:45AM – 12:45PM
+  note: virtual
+  speaker: Giovanni S. Alberti
+  affiliation: Department of Mathematics, University of Genoa
+  title: Learning (simple) regularizers for inverse problems
+  abstract: |-
+    In this talk, we consider the problem of learning the optimal regularizer for linear inverse problems modeled in separable Hilbert spaces. In the context of generalized Tikhonov regularization, we characterize the optimal regularizer and derive generalization estimates, in both supervised and unsupervised settings. In the context of sparsity promoting regularization, we derive generalization estimates for learning the optimal “change of basis” in the $\ell^1$ penalty term. We also consider the Bayes estimator associated to a suitable prior modeling (group) sparsity, and show that it can be written as a shallow neural network with a specific attention mechanism. The weights of the network can then be learned by leveraging the well-established training algorithms for NN, yielding state-of-the-art performance for dictionary learning tasks.

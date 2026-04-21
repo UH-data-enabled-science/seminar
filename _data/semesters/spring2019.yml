@@ -1,0 +1,36 @@
+name: Spring 2019
+talks:
+- date: May 09 2019
+  speaker: Sarah King
+  affiliation: Marine Meteorology Division, U.S. Naval Research Laboratory
+  title: Kalman type filters for data assimilation
+  abstract: |-
+    Data assimilation is a type of big data problem found in numerical weather prediction (NWP) where all available information is combined to determine the initial conditions for a particular NWP model. In this talk I will discuss ensemble Kalman filtering in Data assimilation and introduce a nonlinear filter designed to be computationally efficient in terms of model evaluations. The method is a form of Kalman quadrature filter which makes similar assumptions as the data assimilation systems used in operational meteorology. Additionally, the method is scalable and adjoint free making it comparable to ensemble Kalman filtering. We will discuss the prior estimation error properties of the filter and present examples.
+- date: April 15 2019
+  speaker: Manos Papadakis
+  affiliation: Department of Mathematics, University of Houston
+  title: From microlocal analysis and multiscale transforms to Lolaark LLC
+  abstract: |-
+    Water turbidity is a frequent impediment for achieving satisfactory imaging clarity in underwater video and inhibits the extraction of information concerning the condition of submerged structures. Ports, rivers, lakes and inland waterways are notoriously difficult spots for camera inspections due to poor visibility. This is a good first paragraph for the story we promote. But, reality is different.
+
+    We discovered our ability to make an impactful solution in this problem after working on illumination normalization for face recognition and formulating this problem in a new way. Using microlocal analysis we develop a series of mathematical results which prove that the derivative images we generate with our non-linear multiscale transform contain crucial structural information because they retain local smoothness properties of original inputs.
+
+    Armed with hope we ventured to start Lolaark LLC which is completing a software system for real-time visibility improvement of underwater video acquired in turbid environments. During the talk we will demonstrate the capabilities of our product ALSvision and we will share the happy and unhappy experiences of two academics who decided to pursue a career in business, in parallel to their academic track.
+- date: Feb 19 2019
+  speaker: Ed Saff
+  affiliation: Department of Mathematics, Vanderbilt University
+  title: Energy bounds for minimizing Riesz and Gauss Configurations
+  abstract: |-
+    Utilizing frameworks developed by Delsarte, Yudin and Levenshtein, we deduce linear programming lower bounds (as $N \to \infty$) for the Riesz energy of $N$-point configurations on the $d$-dimensional unit sphere in the so-called hypersingular case; i.e, for non-integrable Riesz kernels of the form $|x - y|^{-s}$ with $s > d$. As a consequence, we immediately get (thanks to the Poppy-seed bagel theorem) lower estimates for the large $N$ limits of minimal hypersingular Riesz energy on compact d-rectifiable sets. Furthermore, for the Gaussian potential $\exp(-\alpha |x - y|^2)$ on $\mathbb{R}^p$, we obtain lower bounds for the energy of infinite configurations having a prescribed density.
+- date: Feb 11 2019
+  speaker: Hien V. Nguyen
+  affiliation: Department of Electrical & Computer Engineering, University of Houston
+  title: Challenges for Deep Learning in Medical Image Analysis
+  abstract: |-
+    In the last few years, deep neural networks have emerged as state-of-the-art approaches for various medical image analysis tasks including detection, segmentation, and classification of pathological regions. However, there are several fundamental challenges that prevent deep neural networks from achieving its full potential on medical applications.
+
+    First, deep neural networks often require a large number of labeled training examples to achieve a superior accuracy over traditional machine learning algorithms or match the human performance. For example, it takes more than 100,000 clinically labeled images obtained from multiple medical institutions for deep networks to match human dermatologist’s diagnostic accuracy. While crowdsourcing services provide an efficient way to create labels for natural images or texts, they are usually not appropriate for medical data which have high privacy standards. In addition, annotating medical data requires significant medical/biological knowledge which most crowdsourcing workers do not possess. For these reasons, machine learning researchers often rely on domain experts to label the data. This process is expensive and inefficient, therefore, often unable to produce a sufficient number of labels for deep networks to flourish.
+
+    Second, to make the matter worse, medical data are often noisy and imperfect. This could be due to missing information in medical records or heterogeneity in sensing technologies and imaging protocols. These effects pose a great challenge for conventional learning frameworks. They also sometimes create a discrepancy between training and test data, thus, decrease the overall system’s accuracy to an extent that is no longer safe to use. Finally, human annotations are another major source of errors. For example, high intra and inter-physician variations are well-known in medical diagnostic tasks such as classification of small lung nodules or histopathological images. This leads to erroneous labels that could derail our learning algorithms. How to effectively deal with imperfection in medical data/labels remains an open research question.
+
+    In this talk, I will discuss how to effectively address these challenges. Specifically, I will highlight promising research directions in one-shot learning, designing new network architectures, and multi-stage training of deep networks.

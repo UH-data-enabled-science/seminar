@@ -1,0 +1,93 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ site.title }} · University of Houston</title>
+<meta name="description" content="{{ site.description }}" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top">
+      <span class="brand-mark">UH</span>
+      <span>{{ site.title }}</span>
+    </a>
+    <div class="nav-links">
+      <a href="#current">Current</a>
+      <a href="#past">Archive</a>
+      <a href="{{ site.organizer.url }}" target="_blank" rel="noopener">Host</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">University of Houston · Department of Mathematics</div>
+    <h1>{{ site.title }}</h1>
+    <p class="hero-sub">A weekly seminar series on data science, mathematical modeling, machine learning, optimization, and computational neuroscience — hosted jointly with the Networks Seminar.</p>
+    <div class="hero-chips">
+      <span class="chip">📅 {{ site.meeting.day }} · {{ site.meeting.time }}</span>
+      <span class="chip">📍 {{ site.meeting.location }}</span>
+      <span class="chip">✉️ Mailing list open to all</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="about">
+    <p>Below you can find the current schedule for the <strong>Data-Enabled Science Seminar</strong> at the <strong>Department of Mathematics</strong> of the University of Houston. The seminar is hosted jointly with the <strong>Networks Seminar</strong>.</p>
+    <p><em>For further information or to subscribe to the seminar mailing list, please email the organizer <strong>{{ site.organizer.name }}</strong> at <a href="mailto:{{ site.organizer.email }}">{{ site.organizer.email }}</a>.</em></p>
+  </section>
+
+  {%- assign current_key = site.data.seminars.current -%}
+  {%- assign current = site.data.semesters[current_key] -%}
+  {%- if current -%}
+  <section class="semester-block current" id="current">
+    <div class="semester-header">
+      <h2>Current Schedule <span class="semester-tag">{{ current.name }}</span></h2>
+    </div>
+    <div class="talks">
+      {%- for t in current.talks -%}
+        {%- include talk.html talk=t -%}
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+
+  <h2 class="past-section-title" id="past">Past Semesters</h2>
+  {%- for key in site.data.seminars.order -%}
+    {%- if key == current_key -%}{%- continue -%}{%- endif -%}
+    {%- assign semester = site.data.semesters[key] -%}
+    {%- if semester == nil -%}{%- continue -%}{%- endif -%}
+    {%- assign count = semester.talks | size -%}
+  <details class="semester-block past">
+    <summary class="semester-summary">
+      <span class="sem-name">{{ semester.name }} <span class="sem-count">[{{ count }} talk{% if count != 1 %}s{% endif %}]</span></span>
+    </summary>
+    <div class="talks">
+      {%- for t in semester.talks -%}
+        {%- include talk.html talk=t -%}
+      {%- endfor -%}
+    </div>
+  </details>
+  {%- endfor -%}
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p>{{ site.title }} · Department of Mathematics · University of Houston</p>
+    <p>Organized by <a href="{{ site.organizer.url }}" target="_blank" rel="noopener">{{ site.organizer.name }}</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

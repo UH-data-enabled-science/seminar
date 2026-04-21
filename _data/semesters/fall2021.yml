@@ -1,0 +1,87 @@
+name: Fall 2021
+talks:
+- date: Nov 05 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Jérôme Lacaille
+  affiliation: Safran Aircraft Engines
+  title: Automated prognostic and health monitoring for Turbofan aircraft engines.
+  abstract: |-
+    Since 2007, Safran Aircraft Engines, formerly Snecma, decided with its partner GE on CFM and LEAP engines to develop and industrialize turbofan monitoring algorithms. From the PHM (Prognostic and Health Monitoring) algorithms, I built a DataLab to allow data analysis applications on all types of observations and deploy data analytic skills into the company. I will present some patented algorithms designed with doctoral students and industrialized today by our commercial programs. These tools include innovations to improve design, production and others to automatically anticipate damage, predict thrust degradation, and improve maintenance logistics. I will not go into the mathematical details during this presentation and will focus mainly on aeronautic applications.
+- date: Oct 29 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Raymond Wong
+  affiliation: Department of Statistics, Texas A&M University
+  title: Combating non-uniformity in matrix completion through weights.
+  abstract: |-
+    Matrix completion is a modern missing data problem where the object of interest is a high-dimensional and often low-rank matrix. In this talk, I will discuss the application of weighting methods to deal with non-uniform missingness in matrix completion problems. I will highlight some unique challenges associated with inverse probability weighting (IPW)—a standard weighting approach—under matrix completion settings. Then I will introduce our most recent work on matrix completion under general non-uniform missing structures. We draw insight from covariate-balancing methods developed for treatment effect estimations and break away from the IPW framework. By controlling an upper bound of a novel balancing error, we construct weights that can actively adjust for the non-uniformity in the empirical risk without explicitly modeling the observation probabilities. The recovered matrix based on the proposed weighted empirical risk enjoys appealing theoretical guarantees. In particular, the proposed method achieves a stronger guarantee than existing work in terms of the scaling with respect to the observation probabilities, under asymptotically heterogeneous missing settings.
+- date: Oct 22 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Danna Gurari
+  affiliation: Computer Science, University of Colorado Boulder
+  title: |-
+    Designing computer vision algorithms both to support real users and recognize multiple perspectives.
+  abstract: |-
+    Computer vision systems are transforming our daily lives. Already, such computers that can ‘see’ are guiding self-driving vehicles, assisting medical professionals in diagnosing diseases, allowing us to deposit checks from our mobile phones, and empowering people with visual impairments to independently overcome daily challenges (e.g., reading restaurant menus). However, the current paradigm for designing human-like intelligence in algorithms has limitations. Currently, algorithms are primarily designed to analyze visual information in constrained environments, with the status quo being to return a single response for each task. These limitations translate to algorithms regularly performing poorly in real-world situations and offering a narrow, one-size-fits-all perspective. In this talk, I will discuss my work that addresses these limitations towards building computing systems that enable and accelerate the analysis of visual information. This will include: (1) creating large-scale datasets that represent real use cases; (2) posing new algorithms for understanding and anticipating divergent responses from a crowd; and (3) introducing new methods that can render (and so `imagine') a diversity of photorealistic images.
+- date: Oct 08 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Carlos Fernandez-Granda
+  affiliation: Courant Institute of Mathematical Science, New York University
+  title: Deep learning for denoising.
+  abstract: |-
+    Learning-based approaches to denoising achieve impressive results when trained on standard image-processing datasets in a supervised fashion. However, unleashing their potential in practice will require developing unsupervised or semi-supervised approaches capable of learning from real data, as well as understanding the strategies learned by the networks to perform denoising. In this talk, we will describe recent advances in this direction motivated by a real-world application to electron microscopy.
+- date: Oct 01 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Mikael Kuusela
+  affiliation: Department of Industrial Engineering, University of Houston
+  title: |-
+    Local spatio-temporal analysis of global oceanographic data from Argo profiling floats.
+  abstract: |-
+    Argo floats measure seawater temperature and salinity in the upper 2,000 m of the global ocean. Statistical analysis of the resulting spatio-temporal data set is challenging due to its complex structure and large size. Analyzing these data using local statistical models has proved to be a successful strategy for handling both the complexity and computational challenges arising with these data. For example, oceanographic anomaly fields can be mapped using locally stationary Gaussian processes which yields computationally tractable nonstationary fields without the need to explicitly model the nonstationary covariance structure. In this talk, I will first introduce the relevant local modeling techniques and then describe two recent applications of these methods in producing new data-driven estimates of key properties of the global climate system. In the first, we reconstruct the 4-dimensional ocean circulation using Argo data and use it to infer the global ocean heat transport. In the second, we use these techniques to characterize the subsurface ocean thermal response to tropical cyclones using co-located Argo profiles. I will throughout highlight the unique statistical challenges posed by these applications and describe how the baseline methods needed to be adapted to tackle these challenges.
+- date: Sep 24 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Roberta De Vito
+  affiliation: Department of Biostatistics, Brown University
+  title: Multi-study machine learning approaches for assessing reproducibility.
+  abstract: |-
+    Biostatistics and computational biology are increasingly facing the urgent challenge of efficiently dealing with a large amount of experimental data. In particular, high-throughput assays are transforming the study of biology, as they generate a rich, complex, and diverse collection of high-dimensional data sets. Through compelling statistical analysis, these large data sets lead to discoveries, advances and knowledge that were never accessible before, via compelling statistical analysis. Building such systematic knowledge is a cumulative process which requires analyses that integrate multiple sources, studies, and technologies. The increased availability of ensembles of studies on related clinical populations, technologies, and genomic features poses four categories of important multi-study statistical questions: 1) To what extent is biological signal reproducibly shared across different studies? 2) How can this global signal be extracted? 3) How can we detect and quantify local signals that may be masked by strong global signals? 4) How do these global and local signals manifest differently in different data types?
+
+    We will answer these four questions by introducing novel classes of methodologies for the joint analysis of different studies. The goal is to separately identify and estimate 1) common factors reproduced across multiple studies, and 2) study-specific factors. We present different medical and biological applications. In all the cases, we clarify the benefits of a joint analysis compared to the standard methods.
+
+    Our methods could accelerate the pace at which we can combine unsupervised analysis across different studies, and understand the cross-study reproducibility of signal in multivariate data.
+- date: Sep 17 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Ying Lin
+  affiliation: Department of Industrial Engineering, University of Houston
+  title: Adaptive monitoring of chronic disease in large-scale heterogeneous population.
+  abstract: |-
+    Chronic disease monitoring, which relies on routine and one-size-fits-all monitoring guideline, has low effectiveness and high cost in the clinical practice. To improve the cost-effectiveness in chronic disease monitoring, a transition from the population-based routine monitoring to patient-specific adaptive monitoring is needed. This talk will present (a) a novel statistical learning framework, collaborative learning, to effectively model heterogeneous disease trajectories from sparse and irregular sensing data by exploiting the progression patterns and similarities between individuals; (b) a decision support algorithm, selective sensing, to adaptively allocate the limited monitoring resources to large population and maximally detect the high-risk individuals by integrating the disease progression, individual prognostics and monitoring strategy design into a unified framework. The proposed methods were further applied in the context of cognitive decline monitoring in Alzheimer’s Disease (AD) and depression trajectory monitoring to facilitate the effective use of monitoring technology in chronic disease management.
+- date: Sep 10 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Soledad Villar
+  affiliation: Department of Applied Mathematics & Statistics, John Hopkins University
+  title: |-
+    Scalars are universal: equivariant machine learning structured like classical physics
+  abstract: |-
+    There has been enormous progress in the last few years in designing conceivable (though not always practical) neural networks that respect the gauge symmetries -- or coordinate freedom -- of physical law. Some of these frameworks make use of irreducible representations, some make use of higher order tensor objects, and some apply symmetry-enforcing constraints. Different physical laws obey different combinations of fundamental symmetries, but a large fraction (possibly all) of classical physics is equivariant to translation, rotation, reflection (parity), boost (relativity), and permutations. Here we show that it is simple to parameterize universally approximating polynomial functions that are equivariant under these symmetries, or under the Euclidean, Lorentz, and Poincaré groups, at any dimensionality d. The key observation is that nonlinear O(d)-equivariant (and related-group-equivariant) functions can be expressed in terms of a lightweight collection of scalars -- scalar products and scalar contractions of the scalar, vector, and tensor inputs. These results demonstrate theoretically that gauge-invariant deep learning models for classical physics with good scaling for large problems are feasible right now.
+- date: Sep 03 2021
+  time: 1:00PM – 2:00PM
+  note: Virtual
+  speaker: Harbir Antil
+  affiliation: Center for Mathematics and Artificial Intelligence, George Mason University
+  title: Fractional operators in physics and data science
+  abstract: |-
+    Fractional calculus and its application to anomalous diffusion has recently received a tremendous amount of attention. In complex/heterogeneous material mediums, the long-range correlations or hereditary material properties are presumed to be the cause of such anomalous behavior. Owing to the revival of fractional calculus, these effects are now conveniently modeled by fractional-order differential operators and the governing equations are reformulated accordingly.
+
+    In the first part of the talk, we plan to introduce both linear and nonlinear, fractional-order differential equations. As applications, we will develop new physical models for geophysical electromagnetism, imaging science and a new notion of optimal control and inverse problems will be discussed. We also plan to introduce a novel variable order fractional Laplacian operator with multiple applications.
+
+    In the second part of the talk, we will focus on novel Deep Neural Networks (DNNs) based on fractional operators. We plan to discuss the approximation properties and apply them to image denoising and tomographic reconstruction problems. We will establish that these DNNs are also excellent surrogates to PDEs and inverse problems with multiple advantages over the traditional methods. If time permits, we will conclude the talk by showing some of our recent results on chemically reacting flows using DNNs which clearly shows the effectiveness of the proposed approach.
+
+    The material covered in this talk is part of joint works with several collaborators, PhD students and postdocs.

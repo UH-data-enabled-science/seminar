@@ -1,0 +1,69 @@
+name: Fall 2023
+talks:
+- date: Oct 06 2023
+  time: 12:00PM – 1:00PM
+  note: virtual
+  speaker: Mark A Iwen
+  affiliation: Department of Mathematics, Michigan State University
+  title: |-
+    Low-distortion embeddings of submanifolds of Rn: Lower bounds, faster realizations, and applications.
+  abstract: |-
+    Let M be a smooth submanifold of R^n equipped with the Euclidean(chordal) metric. This talk will consider the smallest dimension, m, for which there exists a bi-Lipschitz function f:M →R^m with bi-Lipschitz constants close to one. We will begin by presenting a bound for the embedding dimension m from below in terms of the bi-Lipschitz constants of f and the reach, volume, diameter, and dimension of M. We will then discuss how this lower bound can be applied to show that prior upper bounds by Eftekhari and Wakin on the minimal low-distortion embedding dimension of such manifolds using random matrices achieve near-optimal dependence on dimension, reach, and volume (even when compared against nonlinear competitors). Next, we will discuss a new class of linear maps for embedding arbitrary (infinite) subsets of R^n with sufficiently small Gaussian width which can both (i) achieve near-optimal embedding dimensions of submanifolds, and (ii) be multiplied by vectors in faster than FFT-time. When applied to d-dimensional submanifolds of R^n we will see that these new constructions improve on prior fast embedding matrices in terms of both runtime and embedding dimension when d is sufficiently small. Time permitting, we will then conclude with a discussion of non-linear so-called “terminal embeddings” of manifolds which allow for extensions of the famous Johnson-Lindenstrauss Lemma beyond what any linear map can achieve.
+
+    This talk will draw on joint work with various subsets of Mark Roach (MSU), Benjamin Schmidt (MSU), and Arman Tavakoli (MSU).
+- date: Oct 20 2023
+  time: 12:00PM – 1:00PM
+  note: virtual
+  speaker: Martin Benning
+  affiliation: School of Mathematical Sciences, Queen Mary University of London
+  title: A lifted Bregman formulation for the inversion of deep neural networks.
+  abstract: |-
+    We propose a novel framework for the regularized inversion of deep neural networks. The framework is based on recent work on training feed-forward neural networks without the differentiation of activation functions. The framework lifts the parameter space into a higher dimensional space by introducing auxiliary variables, and penalizes these variables with tailored Bregman distances. We propose a family of variational regularizations based on these Bregman distances, present theoretical results and support their practical application with numerical examples. In particular, we present the first convergence result (to the best of our knowledge) for the regularized inversion of a single-layer perceptron that only assumes that the solution of the inverse problem is in the range of the regularization operator, and that shows that the regularized inverse provably converges to the true inverse if measurement errors converge to zero.
+
+    This is joint work with Xiaoyu Wang from the University of Cambridge.
+- date: Oct 27 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A
+  speaker: Wing Tat Leung
+  affiliation: City University of Hong Kong
+  title: |-
+    A discretization invariant extension to DeepONet and Chen and Chen's universal approximation.
+  abstract: |-
+    Operator learning trains a neural network to map functions to functions. An ideal operator learning framework should be mesh-free in the sense that the training does not require a particular choice of discretization for the input functions, allows for the input and output functions to be on different domains, and is able to have different grids between samples. We propose a mesh-free neural operator for solving parametric partial differential equations. The basis enhanced learning network (BelNet) projects the input function into a latent space and reconstructs the output functions. In particular, we construct part of the network to learn the ``basis'' functions in the training process. This generalized the networks proposed in Chen and Chen's universal approximation theory for the nonlinear operators to account for differences in input and output meshes. Through several challenging high-contrast and multiscale problems, we show that our approach outperforms other operator learning methods for these tasks and allows for more freedom in the sampling and/or discretization process
+- date: Nov 03 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Vicky Yao
+  affiliation: Department of Computer Science, Rice University
+  title: Joint embedding of biological networks for cross-species functional alignment.
+  abstract: |-
+    Model organisms are widely used to better understand the molecular causes of human disease. While sequence similarity greatly aids this cross-species transfer, sequence similarity does not imply functional similarity, and thus, several current approaches incorporate protein-protein interactions to help map findings between species. Existing transfer methods either formulate the alignment problem as a matching problem which pits network features against known orthology, or more recently, as a joint embedding problem. We propose a novel state-of-the-art joint embedding solution: Embeddings to Network Alignment (ETNA). ETNA generates individual network embeddings based on network topological structure and then uses a Natural Language Processing-inspired cross-training approach to align the two embeddings using sequence-based orthologs. The final embedding preserves both within and between species gene functional relationships, and we demonstrate that it captures both pairwise and group functional relevance. In addition, ETNA's embeddings can be used to transfer genetic interactions across species and identify phenotypic alignments, laying the groundwork for potential opportunities for drug repurposing and translational studies.
+- date: Nov 10 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Marek Kimmel
+  affiliation: Department of Statistics, Rice University
+  title: 'Genetic archeology of cancer: Mathematical theories and applications.'
+  abstract: |-
+    We explain how models of population genetics can be used to provide quantitative inference of clonal evolution of cancer. The talk has two parts. Part 1 is devoted to the definition and mathematical properties of the Site Frequency Spectrum (SFS), one of the commonly used characteristics of cell populations undergoing growth and mutation. We explore the basic consistency of the approaches based on Wright-Fisher or Moran coalescents versus those based on birth-death processes. This provides building blocks for Part 2, in which we consider a comprehensive set of novel DNA sequencing data on advanced urothelial (bladder) cancer (UC), provided by a unique technique developed by Czerniak’s Lab at MD Anderson. Using our theoretical framework and software we developed. The theory applied to these data allow to understand waves of mutations and genomic transformations contributiong to UC carcinogenesis.
+
+    Contributions of Emmanuel Asante, Khanh Dinh, Roman Jaksik, Andrew Koval, Paweł Kuś, and Simon Tavaré, as well as of Bogdan Czerniak and his Lab, are acknowledged.
+- date: Nov 17 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Alexander Wiedemann
+  affiliation: Randolph-Macon College
+  title: Inferring Interaction Kernels for Stochastic Agent-Based Opinion Dynamics.
+  abstract: |-
+    How individuals influence each other plays an important role in the evolutionary opinion dynamics of the whole population. However, information about such interactions is usually not explicit. Instead, we can only observe the dynamics of each individual in the population over time. This calls for the need to develop methods to infer the underlying microscopic mechanisms (i.e. interactions) that give rise to the observed population dynamics. In this project, we consider an asynchronous, discrete-time, continuous-state stochastic model of opinion dynamics in which the change in each individual’s opinion over a fixed time period follows a normal distribution. The mean of this distribution is defined with an interaction kernel. We develop likelihood-based methods to infer this interaction kernel from opinion time series data.
+
+    This ongoing work began at the 2023 AMS Mathematical Research Community Conference (MRC) on Complex Social Systems. Though primarily a presentation of the technical work above, I will offer (personal) recommendation for graduate students and postdocs to participate in future AMS MRCs to network and explore new topics of interest. This work is conducted by Thomas Gebhart, Linh Huynh, Vicki Modisette, William Thompson, Moyi Tian, and Alexander Wiedemann under the guidance of Phil Chodrow and Heather Z. Brooks.
+- date: Dec 01 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Harel Shouval
+  affiliation: University of Texas Medical School at Houston
+  title: |-
+    Learning to Express Reward Prediction Error-like Dopaminergic Activity Requires Plastic Representations of Time
+  abstract: |-
+    The dominant theoretical framework to account for reinforcement learning in the brain is temporal difference (TD) reinforcement learning. The TD framework predicts that some neuronal elements should represent the reward prediction error (RPE), which means they signal the difference between the expected future rewards and the actual rewards. The prominence of the TD theory arises from the observation that firing properties of dopaminergic neurons in the ventral tegmental area appear similar to those of RPE model-neurons in TD learning. Previous implementations of TD learning assume a fixed temporal basis for each stimulus that might eventually predict a reward. Here we show that such a fixed temporal basis is implausible and that certain predictions of TD learning are inconsistent with experiments. We propose instead an alternative theoretical framework, coined FLEX (Flexibly Learned Errors in Expected Reward). In FLEX, feature specific representations of time are learned, allowing for neural representations of stimuli to adjust their timing and relation to rewards in an online manner. In FLEX dopamine acts as an instructive signal which helps build temporal models of the environment. FLEX is a general theoretical framework that has many possible biophysical implementations. In order to show that FLEX is a feasible approach, we present a specific biophysically plausible model which implements the principles of FLEX. We show that this implementation can account for various reinforcement learning paradigms, and that its results and predictions are consistent with a preponderance of both existing and reanalyzed experimental data.

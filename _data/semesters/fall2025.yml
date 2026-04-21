@@ -1,0 +1,108 @@
+name: Fall 2025
+talks:
+- date: Aug 29 2025
+  time: 12:00PM – 1:00PM
+  note: virtual
+  speaker: Jonas Latz
+  affiliation: Mathematics, University of Manchester
+  title: 'STRIDE: Sparse Techniques for Regression in Deep Gaussian Processes'
+  abstract: |-
+    Gaussian processes (GPs) have gained popularity as flexible machine learning models for regression and function approximation with an in-built method for uncertainty quantification. However, GPs suffer when the amount of training data is large or when the underlying function contains multi-scale features that are difficult to represent by a stationary kernel. To address the former, training of GPs with large-scale data is often performed through inducing point approximations (also known as sparse GP regression (GPR)), where the size of the covariance matrices in GPR is reduced considerably through a greedy search on the data set. To aid the latter, deep GPs have gained traction as hierarchical models that resolve multi-scale features by combining multiple GPs. Posterior inference in deep GPs requires a sampling or, more usual, a variational approximation. Variational approximations lead to large-scale stochastic, non-convex optimisation problems and the resulting approximation tends to represent uncertainty incorrectly. In this work, we combine variational learning with MCMC to develop a particle-based expectation-maximisation method to simultaneously find inducing points within the large-scale data (variationally) and accurately train the GPs (sampling-based). The result is a highly efficient and accurate methodology for deep GP training on large-scale data. We test our method on standard benchmark problems.
+
+    (with Simon Urbainczyk and Aretha L. Teckentrup, preprint: [https://arxiv.org/abs/2505.11355](https://arxiv.org/abs/2505.11355))
+- date: Sep 12 2025
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Jeffrey Min-In Yau
+  affiliation: Baylor College of Medicine
+  title: Bimanual touch in the primate somatosensory cortical system
+  abstract: |-
+    Our remarkable manual dexterity is characterized in part by an ability to coordinate our use of two hands. While bimanual motor control has been well-studied, far less is known about bimanual touch and the neural computations that mediate information processing over the hands. In this talk, I will first present evidence that tactile cues experienced on one hand automatically and systematically bias the perception of cues experienced concurrently on the other hand. These bimanual interactions are well-explained by a cue integration model that incorporates canonical operations. I will then present functional neuroimaging results showing that human brain responses associated with bimanual cues are more consistent with cue integration rather than conjunctive coding. Finally, I will present neurophysiology data recorded from human and non-human primates which indicate the presence of bimanual signals in primary somatosensory cortex and suggest how these may be transformed into perceptual decision signals in frontal association cortex. These collective results reveal the complex manner by which the nervous system combines sensory inputs over the hands and highlight candidate brain regions and neural mechanisms that mediate bimanual touch.
+- date: Sep 19 2025
+  time: 12:00PM – 1:00PM
+  speaker: Hanjie Chen
+  affiliation: Department of Computer Science, Rice University
+  title: Interpretability and Control of Large Language Models
+  abstract: |-
+    Large language models (LLMs) have demonstrated remarkable capabilities, but their sophisticated architectures and massive numbers of parameters have turned them into black boxes, making it difficult for humans to understand their underlying mechanisms. This opacity and complexity also hinder our ability to effectively control their predictive behavior. The lack of interpretability and controllability in LLMs raises serious concerns, particularly when deploying them in high-stakes scenarios. In this talk, I will discuss the importance of model interpretability and control, as well as their interplay in LLMs. I will begin by introducing our work on enhancing interpretability through controlled decision-making. Then, I will present our recent research on lightweight control of LLMs by steering their hidden representations. Finally, I will discuss future directions for improving the interpretability and control of LLMs to ensure their safe and responsible integration into real-world applications.
+- date: Oct 3 2025
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Maurizio Porfiri
+  affiliation: NYU Tandon School of Engineering, NYU
+  title: Scaling laws in living social systems
+  abstract: |-
+    Scaling laws are ubiquitous in mechanics, from material strength to turbulence. A scaling law describes the behavior of a system through a power-law, connecting certain properties of the system with its size. Recent studies have identified surprising scaling relationships in living social systems, of which we presently lack a rigorous understanding. To make a first step towards a systematic methodology to unveil the mechanistic underpinnings of scaling laws in these complex systems, we tackle two seemingly different problems: scaling of metabolic rate of insect colonies with colony size and scaling of firearm ownership prevalence with city size. The first problem exemplifies a typical setup in laboratory research, where the researcher designs an experiment and formulates a mathematical model with a hypothesis to test in mind. Grounded in the hypothesis of reverse social contagion, we put forward an experimentally validated compartmental model for energy savings in insect colonies. The second problem exemplifies the less structured scenario in which only ecological data, with all their shortcomings, are available to the researcher. Working with multidimensional data collected on United States cities, we demonstrate the possibility of informing plausible modeling hypotheses through causal discovery and, consequently, formulating network-theoretic models.
+- date: Oct 10 2025
+  time: 12:00PM – 1:00PM
+  note: virtual
+  speaker: Ronny Bergmann
+  affiliation: Institutt for matematiske fag, Norges teknisk-naturvitenskapelige universitet
+  title: Nonsmooth Optimization on Riemannian Manifolds
+  abstract: |-
+    In many applications nonlinear data is measured, for example when considering unit vectors, rotations, or (bases of) subspaces of a vector space. Modelling this on a Riemannian manifold allows to both reduce the dimension of the data stored as well as focusing on geometric properties of the measurement space compared to constraining a total space the data is represented in. In optimisation this yields unconstrained optimization algorithms, where we obtain that every iterate is a feasible point, but we have to take the geometry of the optimization domain into consideration.
+
+    In this talk we present recent developments in nonsmooth optimization on manifolds. Besides a short historical overview the main algorithms will be so-called splitting methods, where the objective function can be split into several parts, where some summand need to fulfil different properties.
+
+    Numerical examples will be given as well, illustrating that the obtained algorithms are both performant and easy to use.
+- date: Oct 24 2025
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Brent Doiron
+  affiliation: University of Chicago
+  title: |-
+    Firing rate diversity lowers the dimension of population covariability in neuronal networks
+  abstract: |-
+    Neuronal responses are very diverse, with stimuli or behaviors eliciting a range of activity across a population. These responses also show large and correlated trial-to-trial fluctuations that occupy a low-dimensional region in activity space. We link these two aspects of neuronal response using techniques from random matrix theory and free probability and derive the following: the more diverse the firing rates of neurons in a population, the lower the effective dimension of trial-to-trial covariability. We validated our prediction using simultaneously recorded neuronal populations from numerous brain areas in mice, non-human primates, and in the motor cortex of human participants. Finally, we show how diverse neuronal codes lead to better stimulus discrimination, and that when the brain is in a heightened state of processing responses are more diverse and have lower-dimensional fluctuations. In sum, we present an organizing principle of population response that is widely observed across the nervous system and acts to synergistically improve population representation.
+- date: Oct 31 2025
+  time: 12:00PM – 1:00PM
+  speaker: Jingchao Ni
+  affiliation: Department of Computer Science, University of Houston
+  title: Cross-Modal Knowledge Transfer in Time Series via Multimodal Views
+  abstract: |-
+    Time series analysis has progressed from traditional autoregressive models to deep learning, Transformers, and foundation models, including large language and vision models. These advances have expanded model design possibilities and, notably, enabled time series problem-solving across multiple modalities, greatly enhancing downstream applications in domains such as climate, energy, and healthcare. In this talk, I will provide an overview of recent developments in large foundation models for time series, highlighting frameworks for transferring knowledge from other modalities to time series. I will then delve into the emerging area of cross-modal knowledge transfer via multimodal views (MMVs) of time series, discussing (1) the generation of MMVs (e.g., linguistic and visual views) of time series; (2) methods for modeling time series via MMVs; and (3) the integration of MMVs with multimodal models. This talk aims to review state-of-the-art AI techniques for time series, highlight unique challenges, and share our recent findings in this promising area.
+- date: Nov 7 2025
+  time: 12:00PM – 1:00PM
+  note: virtual
+  speaker: Paul Manns
+  affiliation: Faculty of Mathematics, Technical University Dortmund
+  title: Stabilizing Trust-region Algorithms for Noisy Functions
+  abstract: |-
+    We are concerned with the minimization of composite functions that can only be accessed through noisy observations, where the noise is uniformly bounded but its distribution remains unknown. Consequently, convergence of typical descent algorithms to stationary points can neither be guaranteed nor expected. We show how a trust-region algorithm that solves linear programs to guarantee sufficient decrease and performs additional step adjustments for fast local convergence can be modified to tackle this problem class. Specifically, the step acceptance criterion of the algorithm can be stabilized, implying that the iterates cluster in critical regions around stationary points, where the sizes of the critical regions and thus potentially remaining instationarities of the iterates depend on the bound of the noise. We provide numerical results that demonstrate the approach and highlight current practical limitations.
+- date: Nov 21 2025
+  time: 11:00AM – 12:00PM
+  speaker: Xin Jiang
+  affiliation: Industrial and Systems Engineering at University of Houston
+  title: 'PEPFlow: A Python library for systematic analyses of optimization algorithms'
+  abstract: |-
+    ptimization underpins modern science, engineering, and technology. Solving an optimization problem involves two key stages: formulating a real-world task as a mathematical model and designing algorithms to solve it efficiently. While disciplined convexity modeling has been automated by tools such as the CVX family, the analysis of convex-optimization algorithms remains challenging and often requires deep expertise.
+
+    This talk introduces PEPFlow, a Python library based on the Performance Estimation Problem (PEP) framework, which formulates convergence behavior of an algorithm as a tractable convex optimization problem. Several open-source packages, such as PEPit and PESTO, have already demonstrated the power of the PEP approach in studying optimization algorithms.
+
+    PEPFlow offers new features including interactivity and symbolic calculation. It provides an intuitive environment for constructing and exploring both primal and dual PEPs, interacting with sparsity patterns of dual variables, and even attempting to derive symbolic proofs of convergence. Together, these features aim to make the study and teaching of optimization algorithms more disciplined, systematic, and exploratory.
+- date: Nov 21 2025
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Rick Betzel
+  affiliation: Department of Psychological and Brain Sciences, Indiana University
+  title: Multi-scale network neuroscience
+  abstract: |-
+    Connectomes are comprehensive maps of the wiring within nervous systems, representing connections from the cellular and synaptic level (on the nanometer scale) to large-scale brain areas (on the centimeter scale). Network neuroscience focuses on modeling and analyzing these connectomes. While the primary goal of network neuroscience—understanding the principles of connectome organization and its impact on brain function—remains consistent across different scales, specific scientific questions often require examining particular spatial levels. For instance, exploring the relationship between clinical outcomes and connectome organization in humans currently requires analysis at the areal level. In my talk, I will present several ongoing research projects from my lab that span multiple scales of network neuroscience. These include nanoscale connectome analyses from model organisms such as C. elegans, Drosophila, and zebrafish, as well as large-scale functional MRI studies. I will conclude with a discussion of key open questions and challenges in the field, along with potential directions for advancing the discipline.
+- date: Nov 28 2025
+  holiday: Thanksgiving
+- date: Dec 3 2025
+  time: 3:00PM – 4:00PM
+  speaker: Emily King
+  affiliation: Colorado State University
+  title: |-
+    Interpretable, Explainable, and Adversarial AI: Data Science Buzzwords and You (Mathematicians)
+  abstract: |-
+    Many state-of-the-art methods in machine learning are black boxes which do not allow humans to understand how decisions are made. In a number of applications, like medicine and atmospheric science, researchers do not trust such black boxes. Explainable AI can be thought of as attempts to open the black box of neural networks, while interpretable AI focuses on creating clear boxes. Adversarial attacks are small perturbations of data that cause a neural network to misclassify the data or act in other undesirable ways. Such attacks are potentially very dangerous when applied to technology like self-driving cars. The goal of this talk is to introduce mathematicians to problems they can attack using their favorite mathematical tools. The mathematical structure of transformers, the powerhouse behind large language models like ChatGPT, will also be explained.
+- date: Dec 5 2025
+  time: 12:00PM – 1:00PM
+  speaker: Mingtao Xia
+  affiliation: Mathematics, University of Houston
+  title: |-
+    Universal approximation property of stochastic neural networks for learning random functions
+  abstract: |-
+    In my talk, I will introduce our recent work on the universal approximation capability of a class of stochastic neural networks for learning random functions or random field models under the Wasserstein-2 metric. Additionally, I will introduce a novel Wasserstein-distance-type loss function that we developed for efficiently training such stochastic neural networks to reconstruct random functions from limited training data.

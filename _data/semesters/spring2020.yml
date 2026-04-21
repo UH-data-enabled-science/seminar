@@ -1,0 +1,16 @@
+name: Spring 2020
+talks:
+- date: Feb 18 2020
+  speaker: Eric Price
+  affiliation: Department of Computer Science, The University of Texas at Austin
+  title: Compressed sensing and generative models
+  abstract: |-
+    The goal of compressed sensing is make use of image structure to estimate an image from a small number of linear measurements. The structure is typically represented by sparsity in a well-chosen basis. We show how to achieve guarantees similar to standard compressed sensing but without employing sparsity at all -- instead, we suppose that vectors lie near the range of a generative model *G*: **R**k —> **R**n. Our main theorem here is that, if *G* is *L*-Lipschitz, then roughly *O*(*k* log *L*) random Gaussian measurements suffice; this is *O*(*k* *d* log *n*) for typical *d*-layer neural networks.
+
+    The above result describes how to use a model to recover a signal from noisy data. But if the data is noisy, how can we learn the generative model in the first place? The second part of my talk will describe how to incorporate the measurement process in generative adversarial network (GAN) training. Even if the noisy data does not uniquely identify the non-noisy signal, the *distribution* of noisy data may still uniquely identify the distribution of non-noisy signals.
+- date: Feb 11 2020
+  speaker: Cameron Buckner
+  affiliation: Department of Philosophy, University of Houston
+  title: Is model transparency good or bad for scientific applications of deep learning?
+  abstract: |-
+    As one might expect from a philosophy talk, the answer to the title question is a big “it depends”; it depends on what we mean by “transparency”, it depends on the uses to which the model's verdicts will be put (especially their epistemological, ethical, and legal contexts), and the things on which it depends are probably much more complicated than we very recently supposed. In this talk, I begin by briefly reviewing the leading theories about why deep learning neural networks are often more efficient and accurate than alternative methods in scientific data analysis. I will then raise a cluster of black box/interpretability challenges to these methods, and discuss the different ways that interpretability might be understood here. In particular, I will use the problem of adversarial examples—artificially created data points that seem to dramatically fool deep learning neural networks, but purportedly do not fool humans—as a way to bring multiple issues related to transparency into conflict. I will conclude by reviewing recent results which challenge the consensus verdict on adversarial examples (which is that they are caused by models overfitting noise in the data set) and discussing the implications of these new findings for philosophy of science and the drive for greater model transparency. In the course of this discussion, we will raise as many questions as we answer, but these questions are ripe for fruitful investigation by a new generation of computationally-informed scientists and philosophers.

@@ -1,0 +1,88 @@
+name: Spring 2024
+talks:
+- date: Jan 29 2024
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Sean Lawley
+  affiliation: Mathematics, University of Utah
+  title: |-
+    Can we get rid of menopause? Stochastic modeling of ovarian aging and procedures for menopause delay.
+  abstract: |-
+    Ovarian tissue cryopreservation is a proven tool to preserve ovarian follicles prior to gonadotoxic treatments. What if this procedure is applied to healthy women to delay or eliminate menopause? In this talk, we will present a mathematical model to predict the efficacy of this procedure and optimize its implementation. Time permitting, we will also discuss how stochastic models of ovarian aging offer answers to longstanding questions surrounding the timing of perimenopause and menopause and the "wasteful oversupply" of ovarian follicles. This talk is based on joint work with Joshua Johnson (University of Colorado School of Medicine), John Emerson (Yale University), Kutluk Oktay (Yale School of Medicine), Nanette Santoro (University of Colorado School of Medicine), and Mary Sammel (Colorado School of Public Health).
+- date: Feb 09 2024
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Hannah Choi
+  affiliation: School of Mathematics, Georgia Tech
+  title: Visual coding shaped by anatomical and functional connectivity structures.
+  abstract: |-
+    Neurons in the visual cortex actively interact with each other to encode sensory information efficiently and robustly. Visual coding, therefore, is shaped by the structure of the underlying anatomical and functional networks of neurons. The first part of the talk will focus on the inter-areal, layer-specific connectivity between cortical areas and how this connectivity patterns modulates the representation of task-relevant information input identity and expectation violation by performing representational analyses on recurrent neural networks with systematically altered structural motifs. Secondly, we will zoom into finer scale networks of single neurons in the visual cortex and discuss how visual stimuli of varying complexity drive functional connectivity of neurons. Our analyses of electrophysiological data across multiple areas of visual cortex reveal that the frequencies of different low-order connectivity motifs are preserved across a range of stimulus complexity, suggesting the role of specific motifs as local computational units of visual information.
+- date: Feb 12 2024
+  time: 11:00AM – 12:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Jinsu Kim
+  affiliation: Department of Mathematics, Pohang University
+  title: |-
+    Chemical reaction networks as a language of computation: Training neural networks via biochemical reactions.
+  abstract: |-
+    Chemical reaction networks graphically model the interactions of chemical species using associated dynamical systems of differential equations or Markov chains. In this work, we show that chemical reactions can be used as building blocks for a computing algorithm. As an example, we present chemical reaction networks that implement neural network computations through associated dynamical systems. We demonstrate that chemical reaction networks, in particular, can be employed to implement the calculation of derivatives for neural network activation functions and, ultimately, the backpropagation.
+- date: Feb 16 2024
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Vikram Maheshri
+  affiliation: Economics, University of Houston
+  title: A Unified Empirical Framework to Study Segregation
+  abstract: |-
+    We study the determinants of race and income segregation in the San Francisco Bay area from 1990 to 2004. Our framework incorporates the endogenous feedback loop at the core of the seminal Schelling (1969) model of segregation into a dynamic model of neighborhood choice, thus allowing for data to be observed in transition toward a steady state. We assess the relative importance of a variety of mechanisms that generate segregation – endogenous sorting on the basis of the socioeconomic composition of neighbors, sorting on the basis of other neighborhood amenities, differential responses to prices – and the frictions that mediate these mechanisms – moving costs and incomplete information. Identification of households' endogenous responses to the socioeconomic compositions of neighbors is facilitated by novel instrumental variables that exploit the logic of a dynamic choice model with frictions. Sorting based on unobserved neighborhood amenities is the most important factor generating segregation followed distantly by endogenous sorting on the basis of the socioeconomic composition of neighbors. Frictions, primarily moving costs, play a central role in keeping segregation in check as they disproportionately mitigate endogenous sorting.
+- date: Feb 23 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Ethan Levien
+  affiliation: Department of Mathematics, Dartmouth
+  title: 'Linking individual and population scale dynamics: The role of extremes'
+  abstract: |-
+    Many problems in quantitative biology concern how population-scale dynamics are shaped by heterogeneity within a population. In this talk I will discuss two examples from my own research: 1) In evolution, how does variation in offspring numbers influence the genealogies? 2) Can we predict the proliferation rate of a population in bulk culture based on measurements of single-cells? In both cases, one needs to pay careful attention to the extremes of the individual distribution in order to understand the population-level behavior. The key principles at play can be understood via a connection to the Random Energy (REM), a toy model from the theory of spin glasses. In the REM, exponentially rare events have an exponentially large impact on the partition function, which becomes dominated by extreme value statistics below a critical temperature. After providing a pedagogical introduction to the REM, I will discuss its application to the problems above. If time permits, I will present some more general connections between disordered systems and population biology.
+- date: Mar 21 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Johannes Milz
+  affiliation: H. Milton Stewart School of Industrial and Systems Engineering, Georgia Tech
+  title: Ensemble-based solutions for optimal control of uncertain dynamical systems.
+  abstract: |-
+    We consider finite-time horizon optimal control of uncertain dynamical systems, particularly those governed by nonlinear ordinary differential equations with uncertain inputs. Our approach to approximating the optimal control problem involves a Monte Carlo sample-based method, transforming it into optimal control problems with ensembles of deterministic dynamical systems. This method is commonly known in the literature as the sample average approximation or empirical risk minimization. Our primary goal is to determine Monte Carlo-type convergence rates for the ensemble-based solutions. Additionally, we establish the optimality of these convergence rates with respect to certain problem characteristics.
+- date: Mar 29 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Weilin Li
+  affiliation: City University of New York, City College
+  title: 'Super-resolution: theory and algorithms.'
+  abstract: |-
+    The Rayleigh length in optics refers to the minimum distance between two point sources that can be resolved by an imaging system. Although this is a widely used principle, there is experimental evidence that, in certain situations, it is possible to extract information at scales smaller than the Rayleigh length. Motivated by such discoveries, we examine this phenomenon from a mathematical viewpoint. Super-resolution is the inverse problem of recovering point sources, whose distances may be smaller than the Rayleigh length, from noisy Fourier measurements. We study the fundamental limits of super-resolution from an information theoretic viewpoint and examine the stability of efficient algorithms such as ESPRIT. Both are problems are closely related to properties of non-harmonic Fourier matrices. Time permitting, we also discuss application oriented extensions and challenges with higher dimensional super-resolution.
+- date: Apr 05 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Stefan Henneking
+  affiliation: Oden Institute, The University of Texas at Austin
+  title: |-
+    Real-time Bayesian inversion of autonomous systems with application to Tsunami forecasting.
+  abstract: |-
+    Hessian-based algorithms for the solution to Bayesian inverse problems typically require many actions of the Hessian matrix on a vector. For problems with high-dimensional parameter fields or expensive-to-evaluate forward operators, a direct approach is often computationally intractable, especially in the context of real-time inversion. One way to overcome the computational bottleneck of Hessian matrix-vector multiplications in these large-scale inverse problems is to exploit the structure of the underlying operators. A particular class of operators for which we can exploit the structure very effectively are those representing autonomous systems. The evolution of such systems with respect to any given input may depend on the system's current state but does not explicitly depend on the independent variable (e.g., time). We present a scalable and computationally efficient approach for Bayesian inversion of problems involving autonomous systems. Our approach splits the computation into a precomputation ("offline") phase and a real-time inversion ("online") phase. Contrary to other methods, this approach does not employ a lower-fidelity approximation but instead uses the full discretization obtained from the PDE-based model. The method is applied to a real-time tsunami Bayesian inverse problem involving a time-invariant dynamical system. Scalability and efficiency of the implementation are demonstrated for state-of-the-art GPU-accelerated compute architectures.
+
+    This is joint work with Sreeram Venkat, Milinda Fernando, and Omar Ghattas.
+- date: Apr 19 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A
+  speaker: Eric Chi
+  affiliation: Department of Statistics, Rice University
+  title: Proximal MCMC for Bayesian Inference of Constrained and Regularized Estimation
+  abstract: |-
+    Proximal Markov Chain Monte Carlo (MCMC) is a flexible and general Bayesian inference framework for constrained or regularized parametric estimation. The basic idea of Proximal MCMC is to approximate nonsmooth regularization terms via the Moreau-Yosida envelope. Initial Proximal MCMC strategies, however, fixed nuisance and regularization parameters as constants, and relied on the Langevin algorithm for the posterior sampling. We extend Proximal MCMC to a fully Bayesian framework with modeling and data-adaptive estimation of all parameters including regularization parameters. More efficient sampling algorithms such as the Hamiltonian Monte Carlo are employed to scale Proximal MCMC to high-dimensional problems. Our proposed Proximal MCMC offers a versatile and modularized procedure for the inference of constrained and non-smooth problems that is mostly tuning parameter free. We illustrate its utility on various statistical estimation and machine learning tasks.
+- date: Apr 26 2024
+  time: 11:45AM – 12:45PM
+  note: PGH 646A · Networks Seminar
+  speaker: Matthew R. Bennett
+  affiliation: Department of Biosciences and Bioengineering, Rice University
+  title: |-
+    Multicellular synthetic biology: Understanding the design principles of intercellular communication
+  abstract: |-
+    Synthetic biologists have long sought to rationally engineer genetic regulatory networks for a variety of reasons. For instance, the basic science of understanding gene regulation has prospered due to our ability to intricately construct, perturb, and monitor gene networks in living cells. Additionally, synthetic biologists have designed a host of systems for practical biomedical and industrial applications. Yet, as synthetic biologists push the limits of genetic engineering it is becoming increasing clear that synthetic multicellular systems will be required to accomplish tasks that are difficult for single cells or homogeneous colonies. However, traditional mathematical modeling frameworks often fail to adequately describe or predict the behaviors of even simple multicellular regulatory phenomena. In this talk, I will describe our lab’s efforts to better understand and engineer intercellular communication in multicellular bacterial systems. In particular, I will discuss how the network topologies of intercellular gene regulatory networks influence the spatiotemporal coordination of gene expression in multicellular systems. Further, I will discuss how basic cellular processes, such as cellular growth and division, can influence signal propogation and pattern formation in spatially extended systems.

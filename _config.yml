@@ -1,0 +1,22 @@
+title: Data-Enabled Science Seminar
+description: Data-Enabled Science Seminar at the Department of Mathematics, University of Houston — jointly hosted with the Networks Seminar.
+url: ""
+baseurl: ""
+
+organizer:
+  name: Andreas Mang
+  email: andreas@math.uh.edu
+  url: https://www.math.uh.edu/~andreas/
+
+meeting:
+  day: Fridays
+  time: "12:00 PM – 1:00 PM"
+  location: Department of Mathematics, University of Houston
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+plugins: []

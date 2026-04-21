@@ -1,0 +1,51 @@
+name: Fall 2022
+talks:
+- date: Nov 18 2022
+  time: 12:00PM – 1:00PM
+  note: PGH 646A
+  speaker: Vivak Patel
+  affiliation: Department of Statistics, University of Wisconsin Madison
+  title: Counter examples for (stochastic) gradient descent.
+  abstract: |-
+    Gradient Descent (GD) and Stochastic Gradient Descent (SGD) are foundational algorithms for optimization problems arising in learning and statistics. Thus, studying GD's and SGD's behavior is essential to understanding learning and statistics, while also ensuring the reliability of these algorithms. Unfortunately, GD and SGD have been studied under conditions that are rather unrealistic for problems in learning and statistics, which we show through concrete examples. Even worse, GD's and SGD's behavior defies existing theoretical results when applied to problems with realistic conditions, as we show by example. Thus, GD and SGD have been studied under unrealistic conditions that have provided an incorrect understanding of their reliability. In this talk, we analyze GD and SGD under realistic conditions to supply a complete global convergence analysis. If time permits, we will given an example that shows how continuous GD has spurious solutions for GD with diminishing step sizes, which implies that approximating discrete methods with their continuous counterparts needs to be done very cautiously.
+- date: Oct 28 2022
+  time: 12:00PM – 1:00PM
+  note: Virtual
+  speaker: Philipp Petersen
+  affiliation: Faculty of Mathematics, University of Vienna
+  title: Neural network approximation of smooth functions in floating-point arithmetic.
+  abstract: |-
+    We will discuss and recall multiple approximation results by deep neural networks. In essence, we will observe that these networks can very accurately approximate smooth functions and, as a consequence also complex functions with complex discontinuities, or stable inverses to ill-posed inverse problems. We will complement these results by demonstrating analytically that all these approximation results, as well as most other constructions, are troubled by the fact that they cannot be found by gradient-descent-based methods in floating-point arithmetic. Thereafter, we will show some approximation results where this problem will not occur.
+- date: Oct 14 2022
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Hyunjoong Kim
+  affiliation: Department of Mathematics, University of Pennsylvania
+  title: 'Optimal search processes in biology: zebrafish airinemes and bee foraging.'
+  abstract: |-
+    The efficient search for targets is crucial for all levels of biological systems. These search processes often encounter uncertainty due to a lack of information about their target (random search) or limited communication among a finite number of searchers. Thus, it is important to understand how the biological system optimizes its search process under stochasticity. In this talk, we consider two representative biological systems: zebrafish pattern formation and bee foraging. We discuss how additional randomness (by macrophage) on a ballistic search of the cellular protrusion (airineme) can optimize the search probability to a target. Surprisingly, this theoretical optimal value is approximately the same as the value extracted from live cell images. Next, we investigate how an intermediate level of communication can maximize the fraction of successful bees in foraging. This problem can be considered as a cooperative multi-agent multi-armed bandits problem under competition. Interestingly, this result can be only found by a stochastic model, not a deterministic limit.
+- date: Oct 10 2022
+  time: 2:00PM – 3:00PM
+  note: PGH 646A · Hybrid
+  speaker: Chris Bauch
+  affiliation: Department of Mathematics, University of Waterloo
+  title: |-
+    Harnessing the universality of bifurcations to improve early warning signals of tipping points through deep learning.
+  abstract: |-
+    Many early warning indicators are based on mathematical theory that discards higher-order terms of the equations that are either too hard to solve by hand, or too hard to detect through statistical measures. However, these higher-order terms leave signatures in time series that may provide information about an upcoming tipping point. Deep learning algorithms excel at detecting subtle features in temporal data but must be trained on very large amounts of data from the study system, which we often lack for many experimental or field-based study systems. However, the need for system-specific data could be circumvented by training the algorithms on a library of random dynamical systems passing through tipping points. This would exploit the ‘universality’ of tipping points that can make their features so similar across diverse systems. Hence, training a deep learning algorithm on a library of random ordinary differential equations, phase transition models, or bifurcation normal forms could--in principle--provide early warning signals of upcoming regime shifts as well as provide information about what kind of state lies beyond the tipping point, all without the need for simulated or empirical data specific to the system. This talk will illustrate applications of this approach to both simulated and empirical tipping points in systems including temporal transitions in paleo-climate shifts, thermoacoustics, lake sedimentation, and social shifts, and spatio-temporal phase transitions in ecological, physical, and climate systems.
+- date: Sep 23 2022
+  time: 12:00PM – 1:00PM
+  note: Virtual
+  speaker: Matthias J. Ehrhardt
+  affiliation: Department of Mathematical Sciences, University of Bath
+  title: Equivariant neural networks for inverse problems.
+  abstract: |-
+    In recent years the use of convolutional layers to encode an inductive bias (translational equivariance) in neural networks has proven to be a very fruitful idea. The successes of this approach have motivated a line of research into incorporating other symmetries into deep learning methods, in the form of group equivariant convolutional neural networks. In this work, we demonstrate that roto-translational equivariant convolutions can improve reconstruction quality compared to standard convolutions when used within a learned reconstruction method. This is almost a free lunch since only little extra computational cost during training and absolutely no extra cost at test time is needed.
+- date: Sep 09 2022
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Hybrid
+  speaker: Ryeongkyung Yoon
+  affiliation: Department of Mathematics, University of Houston
+  title: A Non-autonomous equation discovery method for time signal classification.
+  abstract: |-
+    The connection between deep neural networks and ordinary differential equations (ODEs), as known as Neural ODE, is an active field of research in machine learning. In this talk, we view the hidden states of a neural network as a continuous object governed by a dynamical system. The underlying vector field of hidden variables is written using a dictionary representation which is identified by fitting on the dataset. Within this framework, we develop models for time-series classification. We train the parameters in the models by minimizing a loss, which is defined using the solution to the governing ODE. We solve the optimization problem using a gradient-based method where the gradients are computed via the adjoint method from optimal control theory. Through various experiments on synthetic and real-world datasets, we demonstrate the performance of the proposed models. We also interpret the learned models by visualizing the phase plots of the underlying vector field and solution trajectories. At the end, we introduce the extension of the model for unsupervised learning tasks like dimension reduction method.

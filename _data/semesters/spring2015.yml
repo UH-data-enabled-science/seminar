@@ -1,0 +1,61 @@
+name: Spring 2015
+talks:
+- date: Jan 28 2015
+  speaker: Xuemei Chen
+  affiliation: University of Missouri, Department of Mathematics
+  title: A 'frame'work for compressed sensing.
+  abstract: |-
+    Compressed sensing aims to reconstruct sparse signals (most coordinates are zeros) from very few linear measurements. There has been an explosion of research activities in this area during the last decade due to its wide applications, including imaging (e.g., photography, MRI), radar, secure communication and machine learning. In this talk, I will give a brief introduction to compressed sensing. Then I will focus on the compressed sensing problem in the setting where signals are sparse in a frame/dictionary with the goal to build up a framework for this setting. Some interesting and surprising results are presented along the way.
+- date: Feb 02 2015
+  speaker: Pascal Fua
+  affiliation: Ecole Polytechnique Fédérale de Lausanne, Computer Vision Laboratory
+  title: Modeling Brain Circuitry over a Wide Range of Scales.
+  abstract: |-
+    Electron microscopes (EM) can now provide the nanometer resolution that is needed to image synapses, and therefore connections, while Light Microscopes (LM) see at the micrometer resolution required to model the 3D structure of the dendritic network. Since both the arborescence and the connections are integral parts of the brain’s wiring diagram, combining these two modalities is critically important.
+
+    In this talk, I will therefore present our approach to building the dendritic arborescence, to segmenting intra-neuronal structures from EM images, and to registering the resulting models. I will also argue that the techniques that are in wide usage in the Computer Vision and Machine Learning community are just as applicable in this context.
+- date: Apr 06 2015
+  speaker: Yifei Lou
+  affiliation: University of Texas Dallas. Applied Mathematics
+  title: A Non-convex Approach for Signal and Image Processing.
+  abstract: |-
+    A fundamental problem in compressed sensing (CS) is to reconstruct a sparse signal under a few linear measurements far less than the physical dimension of the signal. Currently, CS favors incoherent systems, in which any two measurements are as little correlated as possible. In reality, however, many problems are coherent, in which case conventional methods, such as L1 minimization, do not work well. In this talk, I will present a novel non-convex approach, which is to minimize the difference of L1 and L2 norms (L1-L2) in order to promote sparsity. Efficient minimization algorithms are constructed and analyzed based on the difference of convex function methodology. The resulting DC algorithms (DCA) can be viewed as convergent and stable iterations on top of L1 minimization, hence improving L1 consistently.
+
+    Through experiments, we discover that both L1 and L1-L2 obtain better recovery results from more coherent matrices, which appears unknown in theoretical analysis of exact sparse recovery. In addition, numerical studies motivate us to consider a weighted difference model L1-aL2 (a>1) to deal with ill-conditioned matrices when L1- L2 fails to obtain a good solution. An extension of this model to image processing will be also discussed, which turns out to be a weighted difference of anisotropic and isotropic total variation (TV), based on the well-known TV model and natural image statistics. Numerical experiments on image denoising, image deblurring, and magnetic resonance imaging (MRI) reconstruction demonstrate that our method improves on the classical TV model consistently, and is on par with representative start-of-the-art methods.
+- date: Apr 14 2015
+  speaker: Wotao Yin
+  affiliation: UCLA, Department of Mathematics
+  title: Bias-free sparse optimization.
+  abstract: |-
+    We introduce a new sparse signal recovery method that has a number of theoretical and computational properties. In particular, it doesn't have the bias found in LASSO. Known since Jianqing Fan and Runze Li's publication in 2001, points on a LASSO path are biased. In order to avoid the bias, instead of the convex l1 energy used in LASSO, one must minimize a nonconvex energy and therefore lose the computational advantages of convex minimization.
+
+    Our new method recovers a sparse signal by evolving an ordinary differential inclusion, which involves the subdifferential of the l1 energy. We show that our method can find a solution that is the unbiased estimate of the true signal and whose entries have the signs consistent with those of the true signal. All of these are achieved without any post-processing step of debiasing. In fact, it works better than LASSO combined with debiasing. We also show how to efficiently compute our path both exactly and inexactly but much faster. The exact path can be computed in finitely many steps at a low cost per step. For problems with huge data, we generate an approximate regularization path by so-called Linearized Bregman iteration, which is fast and easy to parallelize yet still have the sign-consistency property and is only slightly biased.
+
+    This is joint work with Stanley Osher, Feng Ruan, Jiechao Xiong, Ming Yan, and Yuan Yao.
+- date: Apr 27 2015
+  speaker: Glenn Easley
+  affiliation: MITRE Corporation
+  title: Super-resolution using a compressive sensing architecture.
+  abstract: |-
+    We present experimental results for a novel super-resolution imaging device that measures projections onto a random basis. The imaging system follows an architecture that comes from the theory of compressed sensing. We developed the system model from experimentally acquired calibration data and evaluate system performance as a function of the size of the basis set, or equivalently, the number of projections applied in the reconstruction. Simulations show sensitivity of the approach to fundamental physical parameters certain to be encountered with real systems, including optical diffraction and noise.
+- date: May 04 2015
+  speaker: Panagiotis Tsiamyrtzis
+  affiliation: Athens University of Economics and Business, Department of Statistics
+  title: A Bayesian statistical process control approach in modeling count type data.
+  abstract: |-
+    We will start with a short introduction to Statistical Process Control (SPC). Then we will consider a process producing count type data from a Poisson distribution. The Poisson parameter (mean and variance) can experience jumps at random times. These jumps can be of either direction, i.e. either upward (process degradation) or downward (process improvement) and of random size. Our interest is in monitoring in an on-line fashion the underline parameter (detecting “out of control” behavior). The methodology is based on a Bayesian sequentially updated scheme of mixture of Gamma distributions coming from adopting a change point model. Issues regarding inference, prediction and robustness will be covered. The proposed method will be tested against the Shiryaev-Roberts change point alternative and will be applied to a real data set. The developed methodology is very appealing for Phase I and/or short run count data.
+- date: Aug 07 2015
+  speaker: Davide Barbieri
+  affiliation: Universidad Autónoma de Madrid, Departamento de Matemáticas
+  title: Wavelet analysis in primary visual cortex
+  abstract: |-
+    A large portion of primary visual cortex neurons activates with an approximately linear response to visual stimuli. Their behavior be can be modeled to a certain extent as a projection of images onto a family of multiscale Gabor filters, with respect to a set of parameters which seems to be related to the task of edge and contour detection. This seminar is aimed to discuss some properties of that analyzing family, and to briefly comment on some details and limitations of this approach.
+- date: Aug 07 2015
+  speaker: Bin Dong
+  affiliation: Peking University, Beijing International Center for Mathematical Research
+  title: |-
+    Wavelet Frame Transforms and Differential Operators: Bridging Discrete and Continuum for Image Restoration and Data Analysis
+  abstract: |-
+    My talk is mainly based on a series of our three recent papers, where fundamental connections between wavelet frame based approach and PDE based approach (including variational and nonlinear PDE based methods) were established. In particular, connections to the total variation model, Mumford-Shah model, and anisotropic diffusions were established. The series of three papers showed that wavelet frame transforms are discretization of differential operators in both variational and PDE frameworks, and such discretization is superior to some of the traditional finite difference schemes for image restoration. This new understanding essentially merged the two seemingly unrelated areas. It also gave birth to many innovative and more effective image restoration models and algorithms.
+
+    Although the main application considered is image restoration, I will also discuss possible extensions to high-dimensional unstructured data analysis. I will present a characterization and construction of tight wavelet frames on non-flat domains in both continuum setting, i.e. on manifolds, and in discrete setting, i.e. on graphs; discuss how fast tight wavelet frame transforms can be computed and how they can be effectively used to process and analyze graph data.

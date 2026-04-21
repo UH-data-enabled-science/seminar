@@ -1,0 +1,83 @@
+name: Spring 2023
+talks:
+- date: Apr 28 2023
+  time: 12:00PM – 1:00PM
+  speaker: Stephen Thacker
+  affiliation: Department of Mathematics, University of Houston
+  title: Multi-wavelet frame filter design in the era of A.I.
+  abstract: |-
+    In the context of multi-wavelet frame filter design, good spatial localization of filters is desirable for fast algorithms to avoid the introduction of ringing artifacts associated with the poor spatial localization of filters. While shearlets obtain nearly optimal reconstruction of cartoon-like images, they are not compactly supported in the time domain. In 2019, Karantzas, Atreas, Papadakis and Stavropolous published a paper detailing a new technique that allowed for the construction of multi-wavelet parseval frames that contain hand selected elements, which can include anisotropic atoms. A key consequence of their work is the ability to algorithmically construct compactly supported Parseval frames of dyadic wavelets that contain elements defined by high-pass filters which can have a variety of properties such as acting as differential operators with prescribed orientations, e.g. Prewitt and Sobel operators. The key limitation of their work is that, unlike shearlets, these Parseval frames wavelets can only achieve limited degrees of orientation. In an effort to address these design problems we derived a number of results, two of them we will present in this talk. Our first main result gives, for the class of bandlimited functions, the reconstruction error from multi-wavelet systems constructed from handpicked filterbanks, which can include differential operators of prescribed anisotropy. Our second main result is a new construction attempting to overcome the 2019 paper's gap in the study of the error resulting from the removal of the additional frame wavelets. In fact, we show that the frame wavelets of those Parseval frame can be combined with additional atoms of different length, and then scaled by constants to create a multi-wavelet frame with good frame bounds that can be close to 1. This allows us to modify constructions from the 2019 paper to contain atoms from higher resolution systems, obtaining greater degrees of anisotropy while maintaining good frame bounds for the class of bandlimited functions. These results are generalizable for any square-integrable function but under certain constraints. This is a report on our ongoing research work.
+- date: Apr 21 2023
+  time: 12:00PM – 1:00PM
+  note: virtual
+  speaker: Dirk Lorenz
+  affiliation: Technical University Braunschweig, Institute of Analysis and Algebra
+  title: Unrolling vs bilevel optimization for learning of variational models.
+  abstract: |-
+    In this talk we will consider the problem of learning a convex regularizer from a theoretical perspective. In general, learning of variational methods can be done by bilevel optimization where the variational problem is the lower level problem and the upper level problem minimizes over some parameter of the lower level problem. However, this is usually too difficult in practice and one practically feasible method is the approach by so-called unrolling (or unfolding). There, one replaces the lower level problem by an algorithm that converges to a solution of that problem and uses the N-th iterate instead of the true solution. While this approach is often successful in practice little theoretical results are available. In this talk we will consider a situation in which one can make a thorough comparison of the bilevel approach and the unrolling approach in a particular case of a quite simple toy example. Even though the example is quite simple, the situation is already quite complex and reveals a few phenomena that have been observed in practice.
+- date: Apr 14 2023
+  time: 12:00PM – 1:00PM
+  title: Reduced order model for kinetic and transport problems.
+  abstract: |-
+    Reduced order model (ROM) is a technique to reduce degrees of freedom needed in numerical simulations. In this talk, I will share our recent work on the ROMs for kinetic and transport equation.
+
+    In the first part of this talk, we will discuss a ROM for the radiative transfer equation (RTE) based on the micro-macro decomposition. RTE is a kinetic equation which models particle systems in nuclear engineering and astrophysics. One of the main challenges to numerically solve this equation is due to its high dimensional nature, and standard grid-based method may suffer from the curse of dimensionality. To mitigate the curse of dimensionality, we construct a ROM by projecting the original problem to some low dimensional surrogate spaces, and these spaces are constructed in a way which respects the underlying low-rank structure.
+
+    In the second part, we will discuss a ROM for transport problems. Due to the slow decay of Kolmogorov n-width for some transport problems, classical linear ROMs may be inefficient or even inaccurate for these problems. The underlying low rank structure of these problems may be more efficiently captured through some intrinsic transformations, hence we propose to learn a subspace determined by such transformations from data and design a new ROM for transport problems.
+- date: Apr 07 2023
+  time: 12:00PM – 1:00PM
+  speaker: Sebastian Perez Salazar
+  affiliation: Computational Applied Mathematics & Operations Research, Rice University
+  title: The IID prophet inequality with limited flexibility.
+  abstract: |-
+    In online sales, sellers usually offer each potential buyer a posted price in a take-it-or-leave fashion. Buyers can sometimes see posted prices faced by other buyers, and changing the price frequently could be considered unfair. The literature on posted price mechanisms and prophet inequality problems has studied the two extremes of pricing policies, the fixed price policy and fully dynamic pricing. The former is suboptimal in revenue but is perceived as fairer than the latter. This work examines the middle situation, where there are at most k distinct prices over the selling horizon. Using the framework of prophet inequalities with independent and identically distributed random variables, we propose a new prophet inequality for strategies that use at most k thresholds. We present asymptotic results in k and results for small values of k. For k = 2 prices, we show an improvement of at least 11% over the best fixed-price solution. Moreover, k = 5 prices suffice to guarantee almost 99% of the approximation factor obtained by a fully dynamic policy that uses an arbitrary number of prices. From a technical standpoint, we use an infinite-dimensional linear program in our analysis; this formulation could be of independent interest to other online selection problems.
+- date: Mar 03 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A
+  speaker: Stephan Wojtowytsch
+  affiliation: Department of Mathematics, Texas A&M University
+  title: Achieving acceleration in stochastic optimization.
+  abstract: |-
+    Gradient descent methods, which choose an optimal direction based on purely local information, are robust but slow. Accelerated methods in convex optimization improve upon gradient descent by exploiting information gained along their trajectory and converge much more quickly, albeit in a smaller class of problems. While non-convex, many optimization problems in deep learning share properties with the convex situation. In this context, however, true gradients are prohibitively expensive to compute and only stochastic gradient estimates are available. In this talk, I present a momentum-based accelerated method which achieves acceleration even if the stochastic noise is many orders of magnitude larger than the gradient (i.e. assuming multiplicative noise scaling with a potentially very large constant). Numerical evidence suggests that this method outperforms the current momentum-SGD optimizer in PyTorch and TensorFlow without increasing the computational cost.
+- date: Feb 24 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A
+  speaker: Qiyu Sun
+  affiliation: Department of Mathematics, University of Central Florida
+  title: Some mathematical problems in graph signal processing.
+  abstract: |-
+    Networks have been widely used in many real world applications and their complicated topological structures could be described by (un)directed graphs. Graph signal processing provides innovative frameworks to process and learn data residing on various networks and many irregular domains. Many important concepts in the classical Euclidean setting, such as Fourier transform, shifts, wavelet transform, filter banks and neural networks have been extended to the graph setting. However, some fundamental concepts and many important problems, such as Wiener/Kalman filters, Fourier transform on directed graphs, either are in the early stage of development or have not well-defined in the graph setting. In this talk, I will discuss some mathematical problems for graph signal processing.
+- date: Feb 17 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Gabriel Ocker
+  affiliation: Center for Systems Neuroscience, Boston University
+  title: Dynamics of stochastic integrate-and-fire networks.
+  abstract: |-
+    The neural dynamics generating sensory, motor, and cognitive functions are commonly understood through field theories for neural population activity. Classic neural field theories are derived from highly simplified models of individual neurons, while biological neurons are highly complex cells. The hallmark neuronal nonlinearity is the action potential, a stereotyped pulse leading to neuron transmitter release and finishes with the neuron’s membrane potential at an approximately constant reset value. Here, we develop a statistical field theory for networks of stochastic spiking neurons. We use this to investigate the mean field dynamics of the population activity and the impact of nonlinear spike emission and nonlinear spike resets on the population activity, and compare the roles of inhibitory interactions and single-neuron spike resets in stabilizing neural network activity.
+- date: Feb 03 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Networks Seminar
+  speaker: Robert Rosenbaum
+  affiliation: |-
+    Department of Applied and Computational Mathematics and Statistics, University of Notre Dame
+  title: |-
+    Nonlinear stimulus representations in neural circuits with approximate excitatory-inhibitory balance.
+  abstract: |-
+    Several studies show that neurons in the cerebral cortex receive an approximate balance between excitatory (positive) and inhibitory (negative) synaptic input. What are the implications of this balance on neural representations? Earlier studies develop the theory of a “balanced state” that arises naturally in large scale computational models of neural circuits. This balanced state encourages simple, linear relationships between stimuli and neural responses. However, we know that the cortex must implement nonlinear representations. We show that the classical balanced state is fragile and easily broken in a way that produces a new state, which we call the "semi-balanced state." In this semi-balanced state, input to some neurons is imbalanced by excessive inhibition—which transiently silences these neurons—but no neurons receive excess excitation and balance is maintained the sub-network of non-silenced neurons. We show that stimulus representations in the semi-balanced state are nonlinear, improve the network’s computational power, and have a direct relationship to artificial neural networks widely used in machine learning.
+- date: Jan 27 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A · Hybrid
+  speaker: César A. Uribe
+  affiliation: Department of Electrical and Computer Engineering, Rice University
+  title: Towards scalable algorithms for distributed optimization and learning.
+  abstract: |-
+    Increasing amounts of data generated by modern complex systems such as the energy grid, social media platforms, sensor networks, and cloud-based services call for attention to distributed data processing, in particular, for the design of scalable algorithms that take into account storage and communication constraints and help to make coordinated decisions. This talk presents recently proposed distributed algorithms with near-optimal convergence rates for optimization problems over networks where data is stored distributedly. We focus on scalable algorithms and show they can achieve the same rates as their centralized counterparts, with an additional cost related to the network’s structure. We provide application examples to distributed inference and learning and computational optimal transport.
+- date: Jan 20 2023
+  time: 12:00PM – 1:00PM
+  note: PGH 646A
+  speaker: Kisung You
+  affiliation: Department of Internal Medicine, Yale University School of Medicine
+  title: 'When geometry meets statistics: Learning with structured and complex objects'
+  abstract: |-
+    Concepts, methods, and ideas from geometry have become indispensable apparatus in modern data science. Today, geometric data analysis is an expanding topic of research that encompasses a range of programs, including statistics on manifolds, manifold learning, and information geometry, to name a few. Numerous fields have benefited from its ability to perform inference over constrained domains and extract meaningful intrinsic structure. In this talk, I will introduce two aspects of my geometric research program. The first part is on the representation geometry of complex models. In business and medicine, tree-based ensemble models are often used to approximate a knowledge system due to their superb performance and interpretability. However, its nonlinear structure precludes site-to-site comparison and statistical inference on a collection knowledge systems. Based on diffusion and Riemannian geometry, the proposed framework is shown to quantify inter-site disparity and further endow geometric structure for the space of models. The approach is then used to identify associations between variables in the tabular data. The second section demonstrates Wasserstein median, a generalization of the geometric median onto the space of probability measures under the framework of optimal transport. The proposed concept is motivated by a common observation that median is a robust measure of central tendency in presence of noise and outliers. It is first shown that the estimate uniquely exists under some conditions, then a generic meta-algorithm is proposed that can make use of any existing algorithms for computing the Wasserstein barycenter. Numerical experiments with simulated and real data are presented that validate the robustness conjecture empirically.

@@ -1,0 +1,48 @@
+{%- comment -%}
+  Render a single talk card.
+  Expects: include.talk (a hash from _data/seminars.yml)
+{%- endcomment -%}
+{%- assign t = include.talk -%}
+
+{%- if t.holiday -%}
+<div class="talk-card holiday">
+  <div class="talk-date">
+    <span class="date-main">{{ t.date }}</span>
+  </div>
+  <div class="talk-body">
+    <div class="holiday-label">{{ t.holiday }}</div>
+  </div>
+</div>
+{%- else -%}
+{%- assign badge_class = "location" -%}
+{%- if t.note contains "Network" %}{% assign badge_class = "networks" %}{% endif -%}
+{%- if t.note contains "virtual" %}{% assign badge_class = "virtual" %}{% endif -%}
+<article class="talk-card">
+  <div class="talk-date">
+    <span class="date-main">{{ t.date }}</span>
+    {%- if t.time %}<span class="date-time">{{ t.time }}</span>{% endif -%}
+  </div>
+  <div class="talk-body">
+    {%- if t.note -%}
+    <div class="talk-meta">
+      <span class="badge badge-{{ badge_class }}">{{ t.note }}</span>
+    </div>
+    {%- endif -%}
+    <h4 class="talk-title">{{ t.title | default: "TBD" }}</h4>
+    <div class="talk-speaker">
+      {%- if t.speaker -%}
+        <span class="speaker-name">{{ t.speaker }}</span>
+        {%- if t.affiliation %} <span class="speaker-affil">{{ t.affiliation }}</span>{% endif -%}
+      {%- else -%}
+        <span class="speaker-name tbd">TBD</span>
+      {%- endif -%}
+    </div>
+    {%- if t.abstract -%}
+    <details class="talk-abstract">
+      <summary>Abstract</summary>
+      <div class="abstract-content">{{ t.abstract | markdownify }}</div>
+    </details>
+    {%- endif -%}
+  </div>
+</article>
+{%- endif -%}

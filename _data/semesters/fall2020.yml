@@ -1,0 +1,44 @@
+name: Fall 2020
+talks:
+- date: Nov 20 2020
+  speaker: Lars Ruthotto
+  affiliation: Department of Mathematics, Emory University
+  title: Machine learning for high-dimensional optimal transport.
+  abstract: |-
+    In recent years, OT and ML have become increasingly intertwined. This talk presents new avenues for solving high-dimensional optimal transport (OT) problems using machine learning (ML).
+
+    The first part of the talk shows how neural networks can be used to efficiently approximate the optimal transport map between two densities in high dimensions. To avoid the curse-of-dimensionality, we combine Lagrangian and Eulerian viewpoints and employ neural networks to solve the underlying Hamilton-Jacobi-Bellman equation. Our approach avoids any space discretization and can be implemented in existing machine learning frameworks. We present numerical results for OT in up to 100 dimensions and validate our solver in a two-dimensional setting.
+
+    The second part of the talk shows how optimal transport theory can improve the efficiency of training generative models and density estimators, which are critical in machine learning. We consider continuous normalizing flows (CNF) that have emerged as one of the most promising approaches for variational inference in the ML community. Our numerical implementation is a discretize-optimize method whose forward problem relies on manually derived gradients and Laplacian of the neural network and uses automatic differentiation in the optimization. In common benchmark challenges, our method outperforms state-of-the-art CNF approaches by 1-2 orders of magnitude during training and inference.
+- date: Oct 30 2020
+  speaker: Tan Bui-Thanh
+  affiliation: Oden Institute, The University of Texas at Austin
+  title: |-
+    Model-aware deep learning approaches for forward and PDE-constrained inverse problems.
+  abstract: |-
+    The fast growth in practical applications of machine learning in a range of contexts has fueled a renewed interest in machine learning methods over recent years. Subsequently, scientific machine learning is an emerging discipline which merges scientific computing and machine learning. Whilst scientific computing focuses on large-scale models that are derived from scientific laws describing physical phenomena, machine learning focuses on developing data-driven models which require minimal knowledge and prior assumptions. With the contrast between these two approaches follows different advantages: scientific models are effective at extrapolation and can be fit with small data and few parameters whereas machine learning models require "big data" and a large number of parameters but are not biased by the validity of prior assumptions. Scientific machine learning endeavours to combine the two disciplines in order to develop models that retain the advantages from their respective disciplines. Specifically, it works to develop explainable models that are data-driven but require less data than traditional machine learning methods through the utilization of centuries of scientific literature. The resulting model therefore possesses knowledge that prevents overfitting, reduces the number of parameters, and promotes extrapolatability of the model while still utilizing machine learning techniques to learn the terms that are unexplainable by prior assumptions. We call these hybrid data-driven models as "model-aware machine learning” (MA-ML) methods.
+
+    In this talk, we present a few efforts in this MA-ML direction: 1) ROM-ML approach, and 2) Autoencoder-based Inversion (AI) approach. Theoretical results for linear PDE-constrained inverse problems and numerical results various nonlinear PDE-constrained inverse problems will be presented to demonstrate the validity of the proposed approaches.
+- date: Oct 23 2020
+  speaker: Thomas Pock
+  affiliation: Institute for Graphics and Vision, Technical University Graz
+  title: Variational modeling meets learning
+  abstract: |-
+    In this talk, I will show how to use learning techniques to significantly improve variation models (also known as energy minimization models). I start by showing that even for the simplest models such as total variation, one can greatly improve the accuracy of the numerical approximation by learning the "best" discretization within a class of consistent discretizations. I will then show how such models can be further extended and improved to provide state-of-the-art results for a number of image reconstruction problems, such as denoising, superresolution, MRI and CT.
+- date: Oct 16 2020
+  speaker: Ankit Patel
+  affiliation: Department of Neuroscience, Baylor College of Medicine
+  title: Understanding neural networks as splines.
+  abstract: |-
+    How does a neural network approximate a given function? What kinds of functions can it approximate well/poorly? How does the optimization algorithm bias learning? What is the structure of the loss surface and Hessian and how does that impact generalization? Deep Learning has revolutionized many fields, and yet answers to fundamental questions like these remain elusive. Here we present a new emerging viewpoint -- the function space or spline perspective -- that has the power to answer these questions. We find that understanding neural nets is most easily done in the function space, via a novel spline parametrization. This change of coordinates sheds light on many perplexing phenomena, providing simple explanations for the necessity of overparameterization, the structure of loss surface and Hessian, the consequent difficulty of training, and, perhaps most importantly, the phenomenon and mechanism underlying implicit regularization.
+
+    Understanding the representation, learning dynamics and inductive bias of neural networks (NNs) is hindered by the opacity of the relationship between NN parameters and the function represented. As such, we propose reparametrizing ReLU NNs as continuous piecewise linear splines. Using this spline lens, we study learning dynamics in shallow univariate ReLU NNs, finding unexpected insights and explanations for several perplexing phenomena. We develop a surprisingly simple and transparent view of the structure of the loss surface, including its critical and fixed points, Hessian, and Hessian spectrum. We also show that standard weight initializations yield very flat functions upon initialization, and that this flatness, together with overparametrization and the initial weight scale, is responsible for the strength and type of implicit regularization, consistent with recent work. Our spline-based approach reproduces key implicit regularization results from recent work but in a far more intuitive and transparent manner. In addition to understanding, the spline lens suggests new kinds of data-dependent initializations and learning algorithms that combine gradient descent with other more global optimization algorithms.
+
+    We briefly discuss future work applying the spline lens to: neuronally consistent networks (with saturating activation functions, E/I Balance, and cell types) and to developing new experimental protocols that can test for and characterize implicit regularization in the brain. Going forward, we believe the spline lens will play a foundational role in efforts to understand and design artificial and real neural networks.
+- date: Sep 25 2020
+  speaker: Jeric Alcala
+  affiliation: Department of Mathematics, University of Houston
+  title: |-
+    Subgrid-scale parametrization of unresolved scales in forced Burgers equation using generative adversarial networks (GAN).
+  abstract: |-
+    Stochastic subgrid-scale parametrizations aim to incorporate effects of unresolved processes in an effective model by sampling from a distribution usually described in terms of the resolved modes. This is an active research area in climate, weather and ocean science where processes evolved in a wide range of spatial and temporal scales. In this study, we evaluate the performance of conditional generative adversarial network (GAN) in parametrizing subgrid-scale effects in a finite-difference discretization of stochastically forced Burgers equation. For this model, resolved modes are defined as local averages and the deviations from these averages are the unresolved degrees of freedom. We train GAN conditioned on the resolved variables to learn the distribution of subgrid flux tendencies for resolved modes and, thus, represent the effect of unresolved scales. Resulting GAN is then used in an effective model to reproduce the statistical features of resolved modes. We demonstrate that various stationary statistical quantities such as spectrum, moments, autocorrelation, etc. are well approximated by this effective model.
