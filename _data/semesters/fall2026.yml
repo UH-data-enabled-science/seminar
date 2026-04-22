@@ -85,15 +85,10 @@ talks:
   title: ''
   abstract: |-
 - date: Nov 27 2026
-  time: 12:00PM – 1:00PM
-  note: holiday 
-  speaker: 
-  affiliation: 
-  title: ''
-  abstract: |-
+  holiday: Thanksgiving
 - date: Dec 4 2026
   time: 12:00PM – 1:00PM
-  note: holiday 
+  note:  
   speaker: 
   affiliation: 
   title: ''
