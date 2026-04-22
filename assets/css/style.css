@@ -142,6 +142,15 @@ h2 {
 }
 
 .semester-block.current { margin-bottom: 3rem; }
+.semester-block.upcoming { margin-bottom: 3rem; }
+.semester-block.upcoming .semester-header { border-bottom-color: var(--uh-gray); }
+.semester-tag.upcoming-tag { background: var(--uh-gray); }
+.upcoming-note {
+  color: var(--uh-text-soft);
+  font-style: italic;
+  font-size: 0.95rem;
+  margin: -0.5rem 0 1.25rem;
+}
 .semester-header {
   border-bottom: 3px solid var(--uh-scarlet);
   padding-bottom: 0.6rem; margin-bottom: 1.5rem;

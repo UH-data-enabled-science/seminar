@@ -23,6 +23,7 @@ layout: null
     </a>
     <div class="nav-links">
       <a href="#current">Current</a>
+      <a href="#upcoming">Upcoming</a>
       <a href="#past">Archive</a>
       <a href="{{ site.organizer.url }}" target="_blank" rel="noopener">Host</a>
     </div>
@@ -63,9 +64,26 @@ layout: null
   </section>
   {%- endif -%}
 
+  {%- assign upcoming_key = site.data.seminars.upcoming -%}
+  {%- assign upcoming = site.data.semesters[upcoming_key] -%}
+  {%- if upcoming -%}
+  <section class="semester-block upcoming" id="upcoming">
+    <div class="semester-header">
+      <h2>Upcoming Semester <span class="semester-tag upcoming-tag">{{ upcoming.name }}</span></h2>
+    </div>
+    <p class="upcoming-note">A preview of the next semester so speakers and attendees can plan ahead. Details may still change.</p>
+    <div class="talks">
+      {%- for t in upcoming.talks -%}
+        {%- include talk.html talk=t -%}
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+
   <h2 class="past-section-title" id="past">Past Semesters</h2>
   {%- for key in site.data.seminars.order -%}
     {%- if key == current_key -%}{%- continue -%}{%- endif -%}
+    {%- if key == upcoming_key -%}{%- continue -%}{%- endif -%}
     {%- assign semester = site.data.semesters[key] -%}
     {%- if semester == nil -%}{%- continue -%}{%- endif -%}
     {%- assign count = semester.talks | size -%}
