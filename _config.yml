@@ -1,7 +1,7 @@
 title: Data-Enabled Science Seminar
 description: Data-Enabled Science Seminar at the Department of Mathematics, University of Houston — jointly hosted with the Networks Seminar.
-url: ""
-baseurl: ""
+url: "https://uh-data-enabled-science.github.io"
+baseurl: "/seminar"
 
 organizer:
   name: Andreas Mang
