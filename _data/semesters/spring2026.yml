@@ -93,7 +93,9 @@ talks:
   note: Networks Seminar
   speaker: Ashok Litwin-Kumar
   affiliation: Department of Neuroscience, Columbia University
-  title: TBD
+  title: Identifying structure and modeling dynamics with connectome data
+  abstract: |-
+    There is excitement about the use of synaptic wiring diagrams, or connectomes, for modeling neural computation, but there is also concern that the information a connectome provides is not sufficient to meaningfully constrain a model.  My group has made efforts to understand the capabilities and limitations of this kind of data. I will describe a new method for identifying symmetries in connectome data that are suggestive of computations involving representations of variables of interest to an animal, such as ring or toroidal attractors that underlie representations of head direction or spatial location. I will also describe a theory we have developed that characterizes the solution spaces of connectome-constrained recurrent networks and predicts when such networks exhibit degeneracies or unique solutions.
 - date: May 8 2026
   time: 12:00PM – 1:00PM
   speaker: Daniel Floryan
