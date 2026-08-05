@@ -2,10 +2,9 @@ name: Fall 2026
 talks:
 - date: Sep 4 2026
   time: 12:00PM – 1:00PM
-  note: Networks Seminar
   note: 
-  speaker: Ruediger Thull
-  affiliation: Department of Mathematics, University of Nottingham
+  speaker: 
+  affiliation: 
   title: ''
   abstract: |-
 - date: Sep 11 2026
@@ -53,8 +52,8 @@ talks:
 - date: Oct 23 2026
   time: 12:00PM – 1:00PM
   note: 
-  speaker: 
-  affiliation: 
+  speaker: Kevin Bassler
+  affiliation: Department of Physics, University of Houston
   title: ''
   abstract: |-
 - date: Oct 30 2026
