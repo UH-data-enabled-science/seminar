@@ -56,18 +56,20 @@ talks:
   affiliation: Department of Physics, University of Houston
   title: ''
   abstract: |-
-- date: Oct 30 2026
-  time: 12:00PM – 1:00PM
-  note: 
-  speaker: 
-  affiliation: 
-  title: ''
-  abstract: |-
-- date: Nov 6 2026
-  time: 12:00PM – 1:00PM
-  note: Networks Seminar
+- date: Oct 29 2026
+  time: 3:00PM (special time; Thursday)
+  note: Networks Seminar · Special time
   speaker: Robbe Goris
   affiliation: Associate Professor, Department of Psychology, The University of Texas at Austin
+  title: ''
+  abstract: |-
+- date: Oct 30 2026
+  holiday: No seminar
+- date: Nov 6 2026
+  time: 12:00PM – 1:00PM
+  note:
+  speaker:
+  affiliation:
   title: ''
   abstract: |-
 - date: Nov 13 2026
