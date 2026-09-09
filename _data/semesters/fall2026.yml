@@ -14,6 +14,7 @@ talks:
   affiliation: Department of Physics, University of Louisiana at Lafayette
   title: 'How Fishing improves the design of Nanomachines'
   abstract: |-
+    Harvesting is the selective removal of individuals from a heterogeneous population, which reshapes trait distributions and can alter the system's evolution. Remarkably, even though trait selection and removal of individuals from dynamical ensembles occurs in natural evolution, and is continuously practiced in agriculture and animal breeding -- very little mathematical investigation has been conducted to quantify the effects of repeatedly culling the population and allowing it to re-evolve from effectively new initial conditions. We derive exact mathematical and physical results showing how harvesting can accelerate or halt complex dynamics without altering the microscopic equations of motion. With that... can fishermen tell us how to optimize the thermal efficiency of Nanomachines?
 - date: Sep 18 2026
   time: 12:00PM – 1:00PM
   note: Networks Seminar
@@ -35,13 +36,13 @@ talks:
   affiliation: Department of Electrical and Computer Engineering, Rice University
   title: 'Frechet Regression on Curved Manifolds'
   abstract: |-
-  Fréchet regression extends classical regression to settings where responses are non-Euclidean objects, such as covariance matrices, probability distributions, networks, 
-  or points on Riemannian manifolds. A key challenge is that global Fréchet regression produces signed weights, especially in extrapolation, turning the fitted value into a signed barycenter problem that 
-  may be nonconvex, ill-posed, or constrained by curvature and cut-locus effects. This talk presents recent results on the existence, computation, and convergence of Fréchet regression estimators in two 
-  geometric settings. First, for symmetric positive-definite matrices in the Bures–Wasserstein geometry, we derive spectral conditions that guarantee the well-posedness of signed conditional barycenters and
-  develop projection-free Riemannian optimization methods with applications to network regression and diffusion tensor imaging. Second, for general Riemannian manifolds with bounded curvature, we formulate 
-  signed Fréchet regression as a locally controlled proximal DC problem and introduce FRIDA, a Riemannian proximal DCA method with descent, stationarity, and KL-type convergence guarantees. 
-  Together, these results provide a rigorous optimization framework for regression with manifold-valued responses in interpolation and extrapolation regimes.
+    Fréchet regression extends classical regression to settings where responses are non-Euclidean objects, such as covariance matrices, probability distributions, networks,
+    or points on Riemannian manifolds. A key challenge is that global Fréchet regression produces signed weights, especially in extrapolation, turning the fitted value into a signed barycenter problem that
+    may be nonconvex, ill-posed, or constrained by curvature and cut-locus effects. This talk presents recent results on the existence, computation, and convergence of Fréchet regression estimators in two
+    geometric settings. First, for symmetric positive-definite matrices in the Bures–Wasserstein geometry, we derive spectral conditions that guarantee the well-posedness of signed conditional barycenters and
+    develop projection-free Riemannian optimization methods with applications to network regression and diffusion tensor imaging. Second, for general Riemannian manifolds with bounded curvature, we formulate
+    signed Fréchet regression as a locally controlled proximal DC problem and introduce FRIDA, a Riemannian proximal DCA method with descent, stationarity, and KL-type convergence guarantees.
+    Together, these results provide a rigorous optimization framework for regression with manifold-valued responses in interpolation and extrapolation regimes.
 - date: Oct 9 2026
   time: 12:00PM – 1:00PM
   note: 
