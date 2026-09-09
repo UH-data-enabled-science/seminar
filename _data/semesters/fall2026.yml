@@ -32,7 +32,7 @@ talks:
   time: 12:00PM – 1:00PM
   note: 
   speaker: Cesar Uribe
-  affiliation: Rice University
+  affiliation: Department of Electrical and Computer Engineering, Rice University
   title: 'Frechet Regression on Curved Manifolds'
   abstract: |-
   Fréchet regression extends classical regression to settings where responses are non-Euclidean objects, such as covariance matrices, probability distributions, networks, 
