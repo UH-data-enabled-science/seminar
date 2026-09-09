@@ -34,7 +34,13 @@ talks:
   speaker: Cesar Uribe
   affiliation: Rice University
   title: 'Frechet Regression on Curved Manifolds'
-  abstract: |-
+  abstract: |-Fréchet regression extends classical regression to settings where responses are non-Euclidean objects, such as covariance matrices, probability distributions, networks, 
+  or points on Riemannian manifolds. A key challenge is that global Fréchet regression produces signed weights, especially in extrapolation, turning the fitted value into a signed barycenter problem that 
+  may be nonconvex, ill-posed, or constrained by curvature and cut-locus effects. This talk presents recent results on the existence, computation, and convergence of Fréchet regression estimators in two 
+  geometric settings. First, for symmetric positive-definite matrices in the Bures–Wasserstein geometry, we derive spectral conditions that guarantee the well-posedness of signed conditional barycenters and
+  develop projection-free Riemannian optimization methods with applications to network regression and diffusion tensor imaging. Second, for general Riemannian manifolds with bounded curvature, we formulate 
+  signed Fréchet regression as a locally controlled proximal DC problem and introduce FRIDA, a Riemannian proximal DCA method with descent, stationarity, and KL-type convergence guarantees. 
+  Together, these results provide a rigorous optimization framework for regression with manifold-valued responses in interpolation and extrapolation regimes.
 - date: Oct 9 2026
   time: 12:00PM – 1:00PM
   note: 
