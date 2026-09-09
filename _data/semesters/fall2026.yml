@@ -2,10 +2,10 @@ name: Fall 2026
 talks:
 - date: Sep 4 2026
   time: 12:00PM – 1:00PM
-  note: Networks Seminar
-  speaker: Andre Cardoso Barato
-  affiliation: Department of Physics, University of Houston
-  title: 'Stochastic thermodynamics: from the thermodynamic uncertainty relation to active heat engines'
+  note:
+  speaker:
+  affiliation:
+  title: ''
   abstract: |-
 - date: Sep 11 2026
   time: 12:00PM – 1:00PM
@@ -16,10 +16,10 @@ talks:
   abstract: |-
 - date: Sep 18 2026
   time: 12:00PM – 1:00PM
-  note: 
-  speaker: 
-  affiliation: 
-  title: ''
+  note: Networks Seminar
+  speaker: Andre Cardoso Barato
+  affiliation: Department of Physics, University of Houston
+  title: 'Stochastic thermodynamics: from the thermodynamic uncertainty relation to active heat engines'
   abstract: |-
 - date: Sep 25 2026
   time: 12:20PM – 1:20PM
