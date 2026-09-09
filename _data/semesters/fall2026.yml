@@ -34,7 +34,8 @@ talks:
   speaker: Cesar Uribe
   affiliation: Rice University
   title: 'Frechet Regression on Curved Manifolds'
-  abstract: |-Fréchet regression extends classical regression to settings where responses are non-Euclidean objects, such as covariance matrices, probability distributions, networks, 
+  abstract: |-
+  Fréchet regression extends classical regression to settings where responses are non-Euclidean objects, such as covariance matrices, probability distributions, networks, 
   or points on Riemannian manifolds. A key challenge is that global Fréchet regression produces signed weights, especially in extrapolation, turning the fitted value into a signed barycenter problem that 
   may be nonconvex, ill-posed, or constrained by curvature and cut-locus effects. This talk presents recent results on the existence, computation, and convergence of Fréchet regression estimators in two 
   geometric settings. First, for symmetric positive-definite matrices in the Bures–Wasserstein geometry, we derive spectral conditions that guarantee the well-posedness of signed conditional barycenters and
