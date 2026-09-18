@@ -29,6 +29,10 @@ talks:
   speaker: Ettore Aldrovandi, Jeremy Avigad, Tony Feng, Javier Gómez-Serrano and Alex Kontorovich
   affiliation: 
   title: 'FSU Math and AI panel'
+  event_details: |-
+    This is an online event at FSU. You can register here:
+
+    [https://www.math.fsu.edu/~bauer/AI-Math/turning-point-2026.html](https://www.math.fsu.edu/~bauer/AI-Math/turning-point-2026.html)
   abstract: |-
 - date: Oct 2 2026
   time: 12:00PM – 1:00PM

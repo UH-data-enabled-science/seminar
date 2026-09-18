@@ -37,6 +37,9 @@
         <span class="speaker-name tbd">TBD</span>
       {%- endif -%}
     </div>
+    {%- if t.event_details -%}
+    <div class="event-details">{{ t.event_details | markdownify }}</div>
+    {%- endif -%}
     {%- if t.abstract -%}
     <details class="talk-abstract">
       <summary>Abstract</summary>

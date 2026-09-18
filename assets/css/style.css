@@ -222,6 +222,9 @@ h2 {
 .speaker-name.tbd { color: var(--uh-gray); font-weight: 500; }
 .speaker-affil { color: var(--uh-text-soft); }
 .speaker-affil::before { content: '· '; margin: 0 0.2em; color: var(--uh-gray); }
+.event-details { margin: 0.4rem 0 0.8rem; font-size: 0.97rem; line-height: 1.5; }
+.event-details p { margin: 0 0 0.35rem; }
+.event-details a { color: var(--uh-scarlet-dark); }
 
 .holiday-label {
   font-family: 'Merriweather', serif;

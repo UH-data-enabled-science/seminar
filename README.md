@@ -45,6 +45,7 @@ Fields:
 | `affiliation` | no       | Rendered next to speaker name                                   |
 | `title`       | no       | Shows `TBD` if omitted                                          |
 | `abstract`    | no       | Markdown (or HTML); collapsible on the page                     |
+| `event_details` | no     | Markdown event information shown directly on the talk card      |
 | `holiday`     | no       | If set, renders a holiday card (e.g. `holiday: Thanksgiving`)   |
 
 Badge colors are picked automatically from `note`: `Networks Seminar` is
