@@ -60,8 +60,11 @@ talks:
   note: 
   speaker: Jeremy Avigad
   affiliation: Carnegie Mellon University
-  title: 'Machine learning, neural networks, and mathematics'
+  title: 'The Future of Mathematics'
   abstract: |-
+  Over the last year, advances in foundation language models' ability to write mathematical proofs, both formal and informal, have been dramatic, and AI has solved several longstanding open problems 
+  in mathematics. Mathematicians still struggle to understand how this will affect the field and how best to prepare students and young researchers to succeed in the new environment. This talk will 
+  survey recent developments and discuss some of the consequences for the profession. 
 - date: Oct 23 2026
   time: 12:00PM – 1:00PM
   note: Networks Seminar
