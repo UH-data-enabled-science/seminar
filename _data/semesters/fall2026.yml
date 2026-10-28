@@ -76,8 +76,9 @@ talks:
   note: Networks Seminar · Special time
   speaker: Robbe Goris
   affiliation: Associate Professor, Department of Psychology, The University of Texas at Austin
-  title: ''
+  title: 'Anticipation and representation in the primate visual system'
   abstract: |-
+    Perceptual systems offer a window on the future state of the environment. Predictions are essential for mundane behaviors such as crossing a street, stepping on an escalator, or catching a ball. Some theorists have argued that prediction is so important for behavior that it is involved in nearly all forms of neural computation. Yet, the neural mechanisms underlying visual prediction have long remained elusive and a topic of controversy. In this talk, I will discuss psychophysical, physiological, and theoretical work from my lab that interrogates the computational principles and neural mechanisms that enable humans and macaque monkeys to anticipate the future state of the visual environment. I will argue that representational geometry offers critical insight and helps to connect old hypotheses to recent findings in biological and artificial systems.
 - date: Oct 30 2026
   holiday: No seminar
 - date: Nov 6 2026
