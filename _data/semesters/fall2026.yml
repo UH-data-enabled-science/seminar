@@ -1,3 +1,4 @@
+
 name: Fall 2026
 talks:
 - date: Sep 4 2026
@@ -93,13 +94,16 @@ talks:
   note: Networks Seminar
   speaker: Nishal Shah
   affiliation: Department of Electrical and Computer Engineering, Rice University
-  title: ''
+  title: 'Developing Intracortical Brain–Computer Interfaces for Complex Movements'
   abstract: |-
+    Complex movements depend on the coordinated activity of many neurons, and the principles underlying their representation can also make brain–computer interfaces (BCIs) more effective. In this talk, I will describe our recent work on how the brain represents complex movements and how understanding these representations can support intuitive neural control.
+
+    First, I will present evidence for a compositional motor cortical code for combinatorial finger movements: neural representations of individual fingers combine through linear summation and magnitude normalization. I will then discuss the development of real-time, closed-loop intracortical BCIs that enable people with paralysis to control individual finger movements for typing and recreational activities (ex., flying quadcopters). Finally, I will describe ongoing work to extend these approaches to brain–robot control for activities of daily living and to incorporate cognitive signals into motor BCIs.
 - date: Nov 20 2026
   time: 12:00PM – 1:00PM
-  note: Networks Seminar
-  speaker: Eric Cole
-  affiliation: Baylor College of Medicine
+  note:
+  speaker:
+  affiliation:
   title: ''
   abstract: |-
 - date: Nov 27 2026
@@ -109,5 +113,12 @@ talks:
   note:  
   speaker: Daniel Floryan
   affiliation: Assistant Professor of Mechanical & Aerospace Engineering, University of Houston
+  title: ''
+  abstract: |-
+- date: Dec 11 2026
+  time: 12:00PM – 1:00PM
+  note: Networks Seminar
+  speaker: Eric Cole
+  affiliation: Baylor College of Medicine
   title: ''
   abstract: |-
